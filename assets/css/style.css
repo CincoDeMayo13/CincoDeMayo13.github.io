@@ -10,7 +10,7 @@
 --------------------------------------------------------------*/
 body {
   font-family: "Open Sans", sans-serif;
-  color: #444444;
+  color: white;
 }
 
 a {
@@ -90,7 +90,7 @@ h6 {
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background: #106eea;
+  background: #707793;
   width: 40px;
   height: 40px;
   border-radius: 4px;
@@ -104,7 +104,7 @@ h6 {
 }
 
 .back-to-top:hover {
-  background: #3284f1;
+  background: #3BBA9C;
   color: #fff;
 }
 
@@ -126,7 +126,7 @@ h6 {
 # Top Bar
 --------------------------------------------------------------*/
 #topbar {
-  background: #106eea;
+  background: #707793;
   height: 40px;
   font-size: 14px;
   transition: all 0.5s;
@@ -171,7 +171,7 @@ h6 {
 # Header
 --------------------------------------------------------------*/
 #header {
-  background: #fff;
+  background: #2E3047;
   transition: all 0.5s;
   z-index: 997;
   height: 86px;
@@ -197,7 +197,7 @@ h6 {
 }
 
 #header .logo a span {
-  color: #106eea;
+  color: #707793;
 }
 
 #header .logo img {
@@ -243,7 +243,7 @@ h6 {
   padding: 0 3px;
   font-size: 15px;
   font-weight: 600;
-  color: #222222;
+  color: white;
   white-space: nowrap;
   transition: 0.3s;
   position: relative;
@@ -263,7 +263,7 @@ h6 {
   height: 2px;
   bottom: -6px;
   left: 0;
-  background-color: #106eea;
+  background-color: #3BBA9C;
   visibility: hidden;
   width: 0px;
   transition: all 0.3s ease-in-out 0s;
@@ -280,7 +280,7 @@ h6 {
 .navbar .active,
 .navbar .active:focus,
 .navbar li:hover>a {
-  color: #106eea;
+  color: #3BBA9C;
 }
 
 .navbar .dropdown ul {
@@ -468,17 +468,29 @@ h6 {
 /*--------------------------------------------------------------
 # Hero Section
 --------------------------------------------------------------*/
+
+
+/* .hero-text{
+   margin-bottom: 1px;
+    margin-left : 1px;
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    color: green;
+    position: fixed;
+    bottom: 0;
+} */
 #hero {
   width: 100%;
   height: 75vh;
-  background: url("../img/hero-bg.jpg") top left;
+  background: url("../img/car.jpg") ;
   background-size: cover;
   position: relative;
 }
 
 #hero:before {
   content: "";
-  background: rgba(255, 255, 255, 0.6);
+  background: rgba(0, 0, 0, 0.3);
   position: absolute;
   bottom: 0;
   top: 0;
@@ -495,7 +507,7 @@ h6 {
   font-size: 48px;
   font-weight: 700;
   line-height: 56px;
-  color: #222222;
+  color: white;
   font-family: "Poppins", sans-serif;
 }
 
@@ -504,7 +516,7 @@ h6 {
 }
 
 #hero h2 {
-  color: #555555;
+  color: white;
   margin: 5px 0 30px 0;
   font-size: 24px;
   font-weight: 400;
@@ -539,7 +551,7 @@ h6 {
 }
 
 #hero .btn-watch-video i {
-  color: #106eea;
+  color: white;
   font-size: 32px;
   transition: 0.3s;
   line-height: 0;
@@ -547,11 +559,11 @@ h6 {
 }
 
 #hero .btn-watch-video:hover {
-  color: #106eea;
+  color: #3BBA9C;
 }
 
 #hero .btn-watch-video:hover i {
-  color: #3b8af2;
+  color: #3BBA9C;
 }
 
 @media (min-width: 1024px) {
@@ -594,10 +606,11 @@ h6 {
 section {
   padding: 60px 0;
   overflow: hidden;
+  background-color: #43455C;
 }
 
 .section-bg {
-  background-color: #f6f9fe;
+  background-color: #3C3F58;
 }
 
 .section-title {
@@ -611,8 +624,8 @@ section {
   font-weight: 700;
   padding: 8px 20px;
   margin: 0;
-  background: #e7f1fd;
-  color: #106eea;
+  background: #3BBA9C;
+  color: white;
   display: inline-block;
   text-transform: uppercase;
   border-radius: 50px;
@@ -625,7 +638,7 @@ section {
 }
 
 .section-title h3 span {
-  color: #106eea;
+  color: #3BBA9C;
 }
 
 .section-title p {
@@ -701,7 +714,7 @@ section {
   padding: 30px;
   position: relative;
   overflow: hidden;
-  background: #fff;
+  background: #707793;
   box-shadow: 0 0 29px 0 rgba(68, 88, 144, 0.12);
   transition: all 0.3s ease-in-out;
   border-radius: 8px;
@@ -721,7 +734,7 @@ section {
 }
 
 .featured-services .icon-box:hover::before {
-  background: #106eea;
+  background: #3BBA9C;
   top: 0;
   border-radius: 0px;
 }
@@ -789,7 +802,7 @@ section {
   left: 0;
   top: 2px;
   font-size: 20px;
-  color: #47b2e4;
+  color: #3BBA9C;
   line-height: 1;
 }
 
@@ -870,7 +883,7 @@ section {
   width: 100%;
   position: relative;
   text-align: center;
-  background: #f1f6fe;
+  background: #707793;
 }
 
 .counts .count-box i {
@@ -879,7 +892,7 @@ section {
   left: 50%;
   transform: translateX(-50%);
   font-size: 24px;
-  background: #106eea;
+  background: #3BBA9C;
   color: #fff;
   width: 56px;
   height: 56px;
@@ -1278,7 +1291,7 @@ section {
   margin-bottom: 20px;
   overflow: hidden;
   border-radius: 4px;
-  background: #fff;
+  background: #707793;
   box-shadow: 0px 2px 15px rgba(16, 110, 234, 0.15);
 }
 
@@ -1327,14 +1340,14 @@ section {
   font-weight: 700;
   margin-bottom: 5px;
   font-size: 18px;
-  color: #222222;
+  color: white;
 }
 
 .team .member .member-info span {
   display: block;
   font-size: 13px;
   font-weight: 400;
-  color: #aaaaaa;
+  color: white;
 }
 
 .team .member .member-info p {
@@ -1417,14 +1430,15 @@ section {
 }
 
 .pricing .btn-wrap {
-  margin: 20px -20px -20px -20px;
-  padding: 20px 15px;
-  background: #f8f8f8;
+  margin: 20px;
+
+  background: #3C3F58;
   text-align: center;
 }
 
+
 .pricing .btn-buy {
-  background: #106eea;
+  background: #3BBA9C;
   display: inline-block;
   padding: 8px 35px 10px 35px;
   border-radius: 4px;
@@ -1438,7 +1452,7 @@ section {
 }
 
 .pricing .btn-buy:hover {
-  background: #3b8af2;
+  background: #707793;
 }
 
 .pricing .featured h3 {
@@ -1528,7 +1542,7 @@ section {
 # Contact
 --------------------------------------------------------------*/
 .contact .info-box {
-  color: #444444;
+  color: white;
   text-align: center;
   box-shadow: 0 0 30px rgba(214, 215, 216, 0.3);
   padding: 20px 0 30px 0;
@@ -1544,7 +1558,7 @@ section {
 
 .contact .info-box h3 {
   font-size: 20px;
-  color: #777777;
+  color: white;
   font-weight: 700;
   margin: 10px 0;
 }
@@ -1666,9 +1680,9 @@ section {
 #footer {
   background: #fff;
   padding: 0 0 30px 0;
-  color: #444444;
+  color: white;
   font-size: 14px;
-  background: #f1f6fe;
+  background: #2E3047;
 }
 
 #footer .footer-newsletter {
@@ -1740,7 +1754,7 @@ section {
 }
 
 #footer .footer-top .footer-contact h3 span {
-  color: #106eea;
+  color: #3BBA9C;
 }
 
 #footer .footer-top .footer-contact p {
