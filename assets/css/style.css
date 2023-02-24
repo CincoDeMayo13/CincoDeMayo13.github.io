@@ -829,7 +829,8 @@ h6 {
   #hero2 h2 {
     font-size: 18px;
     line-height: 24px;
-    margin-bottom: 30px;
+    margin-bottom: 90%;
+    margin-left: 10%;
   }
 
   #hero2 .btn-get-started,
