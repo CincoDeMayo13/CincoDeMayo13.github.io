@@ -1,570 +1,818 @@
+<!DOCTYPE html>
+<html data-bs-theme="light" lang="en-US" dir="ltr">
 
-  <!doctype html>
-  <html class="h-100" lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <head>
-        <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no">
-    <meta name="description" content="A well made and handcrafted Bootstrap 5 template">
-    <link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="img/logooooo1.png">
-    <meta name="author" content="Holger Koenemann">
-    <meta name="generator" content="Eleventy v2.0.1">
-    <meta name="HandheldFriendly" content="true">
+    <!-- ===============================================--><!--    Document Title--><!-- ===============================================-->
     <title>Engene</title>
-    <link rel="stylesheet" href="css/theme.min.css">
 
-    <style>
+    <!-- ===============================================--><!--    Favicons--><!-- ===============================================-->
+    <link rel="apple-touch-icon" sizes="180x180" href="img/Engene-Main-Purple - Copy.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/Engene-Main-Purple - Copy.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/Engene-Main-Purple - Copy.png">
+    <link rel="shortcut icon" type="image/x-icon" href="img/Engene-Main-Purple - Copy.png">
+    <link rel="manifest" href="assets/img/favicons/manifest.json">
+    <meta name="msapplication-TileImage" content="assets/img/favicons/mstile-150x150.png">
+    <meta name="theme-color" content="#ffffff">
 
-  /* inter-300 - latin */
-  @font-face {
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 300;
-    font-display: swap;
-    src: local(''),
-        url('fonts/inter-v12-latin-300.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
-        url('fonts/inter-v12-latin-300.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
-  }
+    <!-- ===============================================--><!--    Stylesheets--><!-- ===============================================-->
+    <link rel="stylesheet" href="vendors/swiper/swiper-bundle.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&amp;family=Rubik:ital,wght@0,300..900;1,300..900family=Rubik:ital,wght@0,300..900;1,300..900&amp;display=swap" rel="stylesheet">
+    <link href="assets/css/theme.min.css" rel="stylesheet" id="style-default">
+    <link href="assets/css/user-rtl.min.css" rel="stylesheet" id="user-style-rtl">
+    <link href="assets/css/user.min.css" rel="stylesheet" id="user-style-default">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+  </head>
 
-  /* inter-400 - latin */
-  @font-face {
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
-    font-display: swap;
-    src: local(''),
-        url('fonts/inter-v12-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
-        url('fonts/inter-v12-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
-  }
-
-  @font-face {
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 500;
-    font-display: swap;
-    src: local(''),
-        url('fonts/inter-v12-latin-500.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
-        url('fonts/inter-v12-latin-500.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
-  }
-  @font-face {
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 700;
-    font-display: swap;
-    src: local(''),
-        url('fonts/inter-v12-latin-700.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
-        url('fonts/inter-v12-latin-700.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
-  }
-
-  </style>
-
-
-    </head>
-
-    <body class="bg-black text-white mt-0" data-bs-spy="scroll" data-bs-target="#navScroll" >
-
-      <nav id="navScroll" class="navbar navbar-dark fixed-top px-vw-5" tabindex="0" style="background-color: white;">
-        <div class="container" >
-          <a class="navbar-brand pe-md-4 fs-4 col-12 col-md-auto text-center" href="index.html">
-          <img src="img/Engene-Main-Purple.png" width="240" height="auto" fill="currentColor" class="bi bi-stack" viewBox="0 0 16 16">
-         </a>
-    
-            <ul class="navbar-nav mx-auto mb-2 mb-lg-0 list-group list-group-horizontal">
-           
-          </ul>
-          <a class="nav-link fs-5" href="#location" aria-label="Homepage" style="color: black;">
-            Location
-          </a>
-          <a class="nav-link fs-5" href="content.html" aria-label="Homepage" style="color: black;">
-            The Workshop
-          </a>
-          <a class="nav-link fs-5" href="mailto:Finance@engene.com.sg" aria-label="Homepage" style="color: black;">
-            Inquire
-          </a>
-      </div>
-      </nav>
-
-      <main>
-        <div class="w-100 overflow-hidden position-relative bg-black text-white" data-aos="fade">
-    <div class="position-absolute w-100 h-100 bg-black opacity-75 top-0 start-0"></div>
-      <div class="container py-vh-4 position-relative mt-5 px-vw-5 text-center">
-        <div class="row d-flex align-items-center justify-content-center py-vh-5">
-            <div class="col-12 col-xl-10">
-              <span class="h5 text-secondary fw-lighter">Our Mission</span>
-              <h1 class="display-huge mt-3 mb-3 lh-1">In today's dynamic business environment, flexibility is key</h1>
-            </div>
-            <div class="col-12 col-xl-8">
-              <p class="lead text-secondary">We offer you the option to offshore IT services to us. Instead of hiring a full-time in-house IT employee, you can tap into our skilled team whenever you need it. Basically, you will have your own IT department without any of the overhead.</p>
-            </div>
-            <div class="col-12 text-center">
-          
-            </div>
-        </div>
-      </div>
-    </div>
-
-  <!-- <div class="w-100 position-relative bg-black text-white bg-cover d-flex align-items-center">
-    <div class="container-fluid px-vw-5">
-      <div class="position-absolute w-100 h-50 bg-dark bottom-0 start-0"></div>
-      <div class="row d-flex align-items-center position-relative justify-content-center px-0 g-5">
-        <div class="col-12 col-lg-6">
-          <img src="img/webp/abstract18.webp" width="2280" height="1732" alt="abstract image" class="img-fluid position-relative rounded-5 shadow" data-aos="fade-up">
-        </div>
-        <div class="col-12 col-md-6 col-lg-3">
-          <img src="img/webp/abstract6.webp" width="1116" height="1578" alt="abstract image" class="img-fluid position-relative rounded-5 shadow" data-aos="fade-up" data-aos-duration="2000">
-        </div>
-        <div class="col-12 col-md-6 col-lg-3">
-          <img src="img/webp/abstract9.webp" width="1116" height="848" alt="abstract image" class="img-fluid position-relative rounded-5 shadow" data-aos="fade-up" data-aos-duration="3000">
-        </div>
-      </div>
-    </div>
-  </div> -->
-
-
-  <div class="bg-dark">
-    <div class="container px-vw-5 py-vh-5">
-      <div class="row d-flex align-items-center" style="text-align: center;">
-        <span class="h2 fw-lighter" >What we do<br><br></span> 
-        <div class="col-12 col-lg-4 " data-aos="fade-right">
-          <img src="img/conversation.png" alt="abstract image" class="img-fluid position-relative rounded-5 shadow" data-aos="fade-up" data-aos-duration="2000">
-          <h3 class=" pt-5">Discovery and Advisory</h3>
-          <p class="text-secondary">Reimagine IT needs and instil best practices<br>
-            <!-- <a href="#" class="link-fancy link-fancy-light me-2">Tell me more</a>
-            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-arrow-right-circle" viewBox="0 0 16 16">
-          <path fill-rule="evenodd" d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z"/>
-          </svg> -->
-          </p>
-         </div>
-        <div class="col-12 col-lg-4" data-aos="fade-down">
-          <img src="img/process.png"  alt="abstract image" class="img-fluid position-relative rounded-5 shadow" data-aos="fade-up" data-aos-duration="2000">
-         
-          <h3 class=" pt-5">On-boarding</h3>
-          <p class="text-secondary">Simplify IT workflows for support, security and asset management<br>
-            <!-- <a href="#" class="link-fancy link-fancy-light me-2">Tell me more</a>
-            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-arrow-right-circle" viewBox="0 0 16 16">
-          <path fill-rule="evenodd" d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z"/>
-          </svg> -->
-          </p>
-        </div>
-        <div class="col-12 col-lg-4" data-aos="fade-left">
-          <img src="img/operation.png"  alt="abstract image" class="img-fluid position-relative rounded-5 shadow" data-aos="fade-up" data-aos-duration="2000">
-         
-          <h3 class="pt-5">Managed Services</h3>
-          <p class="text-secondary">Standardise daily, monthly and annual routines<br>
-            <!-- <a href="#" class="link-fancy link-fancy-light me-2">Tell me more</a>
-            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-arrow-right-circle" viewBox="0 0 16 16">
-            <path fill-rule="evenodd" d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z"/>
-            </svg> -->
-          </p>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <div class="bg-black">
-    <div class="container px-vw-5 py-vh-5">
-      <div class="row d-flex align-items-center">
-        <div class="col-12 col-lg text-center text-lg-end" data-aos="zoom-in-right">
-          <!-- <span class="h5 text-secondary fw-lighter">What we charge</span> -->
-          <h3 style="text-align: center;">As your IT Manager, we provide a cost-efficient and resilient technology foundation with IT best practices and governance. Our holistic managed services approach helps businesses evolve with the ever-changing technology landscape, all while saving costs, and staying secure and compliant.
-
-          </h3>
-        </div>
-      
-      </div>
-    </div>
-
-
-    
-
-  <div class="bg-dark py-vh-3">
-    <div class="container bg-black px-vw-5 py-vh-3 rounded-5 shadow">
-      <div style="text-align: center">
-        <span class="h2 fw-lighter">How We Help <br><br></span>
-      </div>
-      
-    <div class="row gx-5">
-      
-      <div class="col-lg-4">
-        <div class="card bg-transparent mb-5" data-aos="zoom-in-up">
-          <div class="bg-dark shadow rounded-5 p-0">
-            <img src="img/help/cost.jpg" width="582" height="327" alt="abstract image" class="img-fluid rounded-5 no-bottom-radius" >
-            <div class="p-5"style="font-size: 22px;">
-              <h3 class="fw-lighter" style="color:white">Save Cost</h2>
-              <p class="pb-4 text-secondary">
-                Optimise IT spending and manpower costs to maximise IT value aligned with your business goals. With AvailEaseTM, you can ensure a predictable IT spending as we plan and prioritise technology initiatives based on your scalable needs.
-                </p>
-              
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-lg-4">
-        <div class="card bg-transparent mb-5" data-aos="zoom-in-up">
-          <div class="bg-dark shadow rounded-5 p-0">
-            <img src="img/help/simplify.jpg" width="582" height="327" alt="abstract image" class="img-fluid rounded-5 no-bottom-radius" >
-            <div class="p-5" style="font-size: 20px;">
-              <h3 class="fw-lighter" style="color:white">Simplify and Standardise</h2>
-              <p class="pb-4 text-secondary">
-                Build a strong digital-first foundation with IT best practices to manage a hybrid environment confidently. Enjoy operational efficiencies with reduced cost and risk by uniting IT workflows for user support, security, and IT asset management. </p>
-             
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-lg-4">
-        <div class="card bg-transparent mb-5" data-aos="zoom-in-up">
-          <div class="bg-dark shadow rounded-5 p-0">
-            <img src="img/help/it.jpg" width="582" height="327" alt="abstract image" class="img-fluid rounded-5 no-bottom-radius" >
-            <div class="p-5">
-              <h3 class="fw-lighter" style="color:white">IT Resilience</h2>
-              <p class="pb-4 text-secondary">
-                Manage business disruption risks to critical systems and services in real-time for a reliable IT operation. We will help you enhance business continuity with robust IT SOPs and proactive monitoring so you can deliver on your business commitments and customer expectations on service levels and data protection.</p>
-             
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-lg-4">
-        <div class="card bg-transparent mb-5" data-aos="zoom-in-up">
-          <div class="bg-dark shadow rounded-5 p-0">
-            <img src="img/help/agility.jpg" width="582" height="50" alt="abstract image" class="img-fluid rounded-5 no-bottom-radius" >
-            <div class="p-5" style="font-size: 22px;">
-              <h3 class="fw-lighter" style="color:white">Agility</h2>
-              <p class="pb-4 text-secondary">
-                Leverage IT for growth while staying compliant to fast-changing regulatory requirements. We will help you implement the right modern technologies and ensure safe and effective use of technologies to raise employee productivity and accelerate speed to market.
-              </p>
-              
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-lg-4">
-        <div class="card bg-transparent mb-5" data-aos="zoom-in-up">
-          <div class="bg-dark shadow rounded-5 p-0">
-            <img src="img/help/futureProof.jpg" width="582" height="327" alt="abstract image" class="img-fluid rounded-5 no-bottom-radius" >
-            <div class="p-5">
-              <h3 class="fw-lighter" style="color:white">Future-Proof your Business</h2>
-              <p class="pb-4 text-secondary">
-                Modernise your business and evolve with the ever-changing technology landscape to stay competitive and relevant for your customers and employees. As your IT Manager and technology advisor, we provide practical and holistic advice to connect IT strategy and business goals for sustainable digital transformation at affordable costs.</p>
-             
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-lg-4">
-        <div class="card bg-transparent mb-5" data-aos="zoom-in-up">
-          <div class="bg-dark shadow rounded-5 p-0">
-            <img src="img/help/peace.jpg" width="582" height="327" alt="abstract image" class="img-fluid rounded-5 no-bottom-radius" >
-            <div class="p-5">
-              <h3 class="fw-lighter" style="color:white">Peace Of Mind</h2>
-              <p class="pb-4 text-secondary" style="font-size: 16px;">Backed by a team of specialist including:</p>
-              <ul class=" text-secondary" style="font-size: 16px;">
-                <li><b>Client Service Advisors </b>(Managed services point of contact)</li>
-                <li><b>Client Technical Advisors</b> (Technical expertise)</li>
-                <li><b>Project Engineers</b> (Implementation expertise)</li>
-                <li><b>Field Engineers</b> (On-site technical support)</li>
-                <li><b>Network Operations Centre</b> (24x7 remote monitoring and Helpdesk)</li>
-                <li><b>Governance Consultants </b>(Technology compliance and certification expertise)</li>
+  <body>
+    <!-- ===============================================--><!--    Main Content--><!-- ===============================================-->
+    <main class="main" id="top">
+      <div class="content">
+        <nav class="navbar navbar-expand-md fixed-top" id="navbar" data-navbar-soft-on-scroll="data-navbar-soft-on-scroll">
+          <div class="container-fluid px-0">
+            <a href="#hero"><img class="navbar-brand  d-md-none" src="img/Engene-Main-Purple.png" alt="logo" width="100" height="auto" /></a>
+            <a class="navbar-brand fw-bold d-none d-md-block" href="#hero"><img src="img/Engene-Main-Purple.png" alt="logo" width="100" height="auto"/></a>
+            <!-- <a class="btn btn-primary btn-sm ms-md-x1 mt-lg-0 order-md-1 ms-auto" href="#">Get Started Now </a> -->
+            <button class="navbar-toggler border-0 pe-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-content" aria-controls="navbar-content" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse justify-content-md-end" id="navbar-content" data-navbar-collapse="data-navbar-collapse">
+              <ul class="navbar-nav gap-md-2 gap-lg-3 pt-x1 pb-1 pt-md-0 pb-md-0" data-navbar-nav="data-navbar-nav">
+                <li class="nav-item"> <a class="nav-link lh-xl" href="workshop.html">The Workshop</a></li>
+                <li class="nav-item"> <a class="nav-link lh-xl" href="#location">Location</a></li>
+                <li class="nav-item"> <a class="nav-link lh-xl" href="#services">Services</a></li>
+                <li class="nav-item"> <a class="nav-link lh-xl" href="mailto:Finance@engene.com.sg">Enquire</a></li>
               </ul>
-              <!-- <a href="#" class="link-fancy link-fancy-light">Read more</a> -->
             </div>
           </div>
-        </div>
-      </div>
+        </nav>
+        <div data-bs-target="#navbar" data-bs-spy="scroll" tabindex="0" id="hero">
+          <section class="hero-section overflow-hidden position-relative z-0 mb-4 mb-lg-0" id="home">
+            <div class="hero-background">
+              <div class="container">
+                <div class="row gy-4 gy-md-8 pt-9 pt-lg-0">
+                  <div class="col-lg-6 text-center text-lg-start">
+                    <p class="fs-8 text-white ">
+                      In today's dynamic business environment,</p>
+                   
+                    <h3 class="fs-2 fs-lg-1 text-white fw-bold mb-2 mb-lg-x1 lh-base mt-3 mt-lg-0">  <span class="text-nowrap">flexibility is key</span></h1>
+                    <p class="fs-8 text-white mb-3 mb-lg-4 lh-lg">
+                      We offer you the option to offshore IT services to us. Instead of hiring a full-time in-house IT employee, you can tap into our skilled team whenever you need it. Basically, you will have your own IT department without any of the overhead.</p>
+                    <!-- <div class="d-flex justify-content-center justify-content-lg-start"><a class="btn btn-primary btn-lg lh-xl mb-4 mb-md-5 mb-lg-7" href="mailto:Finance@engene.com.sg">Enquire Now</a></div>
+                    <p class="mb-x1 fs-10 button-text text-uppercase fw-bold lh-base text-300">Download our app</p> -->
+                    <!-- <div class="d-flex flex-wrap justify-content-center justify-content-lg-start gap-2 position-relative z-2">
+                      <a class="border-0 p-0 bg-transparent cursor-pointer rounded-1" href="#!"> 
+                        <img class="img-fluid" src="assets/img/logos/App_Store.webp" alt="assets/img/logos/App_Store.webp" />
+                      </a>
+                      <a class="border-0 p-0 bg-transparent cursor-pointer rounded-1" href="#!">
+                         <img class="img-fluid" src="assets/img/logos/Play_Store.webp" alt="assets/img/logos/Play_Store.webp" />
+                        </a>
+                      </div> -->
+                  </div>
+                  <div class="col-lg-6 position-lg-relative">
+                    <div class="position-lg-absolute z-1 text-center"><img class="img-fluid chat-image" src="img/hero.jpg" alt="" />
+                      <div class="position-absolute dots d-none d-md-block"> <img class="img-fluid w-50 w-lg-75" src="assets/img/illustrations/Dots.webp" alt="" /></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="position-absolute bottom-0 start-0 end-0 z-1"><img class="wave mb-md-n2" src="assets/img/illustrations/Wave.svg" alt="" />
+              <div class="bg-white py-2 py-md-5"></div>
+            </div>
+          </section>
+          <section class="container border-bottom mb-8 mb-lg-10" style="padding-bottom: 100px;">
 
+            <div class="container">
+              <div class="row justify-content-center">
+                <div class="col-12">
+               
+                  <!-- <div class="position-relative z-1 text-center mb-8 mb-lg-9 video-player-paused" data-video-player-container="data-video-player-container">
+                    <h3 class="fs-4 fs-lg-3 fw-bold text-center mb-2 mb-lg-x1"> Find us <span class="text-nowrap">at</span></h3>
+                    <p class="fs-8 mb-7 mb-lg-8 text-center lh-lg">Engene Pte Ltd
+                      36 Armenia Street
+                      #06-12
+                      Singapore 179934</p>
+                  
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15955.202555962853!2d103.8493869!3d1.2941249499999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da19a3e144bcb7%3A0x18ad3bab5445da75!2sSingapore%20179934!5e0!3m2!1sen!2sph!4v1718289853377!5m2!1sen!2sph" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
-     
+                  </div> -->
+                </div>
+                <div class="col-md-8 col-lg-7" id="services">
+                  <h2 class="fs-4 fs-lg-3 fw-bold text-center  mb-5 mb-lg-9 lh-sm">Our IT Consulting Services Offering</h2>
+                </div>
+                <div class="col-12">
+                  <div class="row gy-4 g-md-3  px-1">
+                    <div class="col-12 col-md-6 col-lg-4 d-flex align-items-start gap-2"><img src="img/meeting.png" alt="" />
+                      <div>
+                        <h5 class="fs-8  lh-lg fw-bold">General Consulting</h5>
+                        <p class="text-opacity-50 lh-xl mb-0">Feeling overwhelmed by the complexities of IT management? Our General Consulting service is here to help. Our consultants, with their extensive experience holding senior level positions and industry expertise, can provide personalized IT guidance tailored to your business needs. Picture your business with an efficient, secure IT infrastructure that aligns perfectly with your goals.</p>
+                      </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4 d-flex align-items-start gap-2"><img src="img/product.png" alt="" />
+                      <div>
+                        <h5 class="fs-8  lh-lg fw-bold">Business Technology review, IT Strategy & Road Mapping</h5>
+                        <p class=" text-opacity-50 lh-xl mb-0">Is your business struggling to keep up with the rapidly evolving tech landscape? Our Business Technology Review, IT Strategy and Road Mapping service helps you develop a strategic IT plan aligned with your business objectives.
 
+                          Imagine having a clear roadmap that guides your IT initiatives and investments, keeping you ahead of the curve.</p>
+                      </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4 d-flex align-items-start gap-2"><img src="img/network-security.png" alt="" />
+                      <div>
+                        <h5 class="fs-8 lh-lg fw-bold">IT Security & Risk Management</h5>
+                        <p class=" text-opacity-50 lh-xl mb-0">Worried about the rise in cyber threats?
+
+                          Our IT Security & Risk Management service provides robust security solutions to safeguard your business.
+                          
+                          Picture your business data and systems secure from threats, with risks managed and compliance ensured.</p>
+                      </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4 d-flex align-items-start gap-2"><img src="img/brain.png" alt="" />
+                      <div>
+                        <h5 class="fs-8 lh-lg fw-bold">IT Business Intelligence</h5>
+                        <p class=" text-opacity-50 lh-xl mb-0">Are you looking to make better decisions for your business?
+
+                          Our IT Business Intelligence service can help you do just that. We offer expertise in documenting and reviewing digital transformation plans, optimizing business processes. Imagine the power of having all the information you need at your fingertips, allowing you to make informed decisions and drive your business forward.</p>
+                      </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4 d-flex align-items-start gap-2"><img src="img/settings.png" alt="" />
+                      <div>
+                        <h5 class="fs-8  lh-lg fw-bold">Systems Architecture & Design</h5>
+                        <p class=" text-opacity-50 lh-xl mb-0">Concerned about the complexity of your IT systems?
+
+                          Our Systems Architecture & Design service offers comprehensive solutions to streamline your business operations.
+                          
+                          Imagine your business systems, seamlessly integrated and designed for efficiency, with complexity managed and performance optimized.</p>
+                      </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4 d-flex align-items-start gap-2"><img src="img/data-server.png" alt="" />
+                      <div>
+                        <h5 class="fs-8 lh-lg fw-bold">Network & Infrastructure Design & Implementation</h5>
+                        <p class="text-opacity-50 lh-xl mb-0">Pondering over the intricacies of your network infrastructure? Our Network Infrastructure Design & Implementation service delivers resilient network solutions tailored to your business needs. Envision your business network, expertly designed and implemented for high availability, with complexities navigated and connectivity ensured.</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+           
+            <!-- <div class="row pb-6 pb-lg-8 g-3 g-lg-8 px-3" style="text-align: center;">
+              <h2 class="fs-4 fs-lg-3 fw-bold text-center   lh-sm">Our IT Consulting Services Offering</h2>
+              <div class="col-12 col-md-4">
+                <img src="img/conversation.png" alt="abstract image" class="img-fluid position-relative rounded-5 shadow" data-aos="fade-up" data-aos-duration="2000" style="margin-bottom: 50px;" width="128" height="auto">
+         
+                <h2 class="fs-3 fw-bold lh-sm mb-2 text-center" data-countup='{"endValue":6,"prefix":"0"}'></h2>
+                <h5 class=" fw-bold lh-sm mb-2 text-center">Discovery and Advisory</h2>
+                <h6 class="fs-8 fw-normal lh-lg mb-0 opacity-70 text-center">Reimagine IT needs and instil best practices</h6>
+              </div>
+              <div class="col-12 col-md-4">
+                <img src="img/process.png"  alt="abstract image" class="img-fluid position-relative rounded-5 shadow" data-aos="fade-up" data-aos-duration="2000" style="margin-bottom: 50px;" width="128" height="auto">
+         
+                <h2 class="fs-3 fw-bold lh-sm mb-2 text-center" data-countup='{"endValue":238}'>0</h2>
+                <h5 class=" fw-bold lh-sm mb-2 text-center">On-boarding</h2>
+                <h6 class="opacity-70 fs-8 fw-normal lh-lg mb-0 text-center">Simplify IT workflows for support, security and asset management</h6>
+              </div>
+              <div class="col-12 col-md-4">
+                <img src="img/operation.png"  alt="abstract image" class="img-fluid position-relative rounded-5 shadow" data-aos="fade-up" data-aos-duration="2000" style="margin-bottom: 50px;" width="128" height="auto">
+         
+                <h2 class="fs-3 fw-bold lh-sm mb-2 text-center" data-countup='{"endValue":1395,"autoIncreasing":true}'>0</h2>
+                <h5 class=" fw-bold lh-sm mb-2 text-center">Managed Services</h2>
+                <h5 class="opacity-70 fs-8 fw-normal lh-lg mb-0 text-center">Standardise daily, monthly and annual routines</h5>
+              </div>
+            </div> -->
+          </section>
+
+          <div class="container px-vw-5 py-vh-5"  style="margin-bottom: 100px;">
+            <div class="row d-flex align-items-center">
+              <div class="col-12 col-lg text-center text-lg-end" data-aos="zoom-in-right">
+                <!-- <span class="h5 text-secondary fw-lighter">What we charge</span> -->
+                <h3 style="text-align: center;">As your IT Manager, we provide a cost-efficient and resilient technology foundation with IT best practices and governance. Our holistic managed services approach helps businesses evolve with the ever-changing technology landscape, all while saving costs, and staying secure and compliant.
       
-
-
-    </div>
-
-  </div>
-
-  <div class="container px-vw-5 py-vh-5">
-    <div class="row d-flex align-items-center">
-      <div class="col-12 col-lg-7 text-center text-lg-end" data-aos="zoom-in-right">
-        <!-- <span class="h5 text-secondary fw-lighter">What we charge</span> -->
-        <h2 class="display-4">Are you ready to transform your IT challenges into opportunities?</h2>
-      </div>
-      <div class="col-12 col-lg-5 bg-dark rounded-5 py-vh-3 text-center my-5" data-aos="zoom-in-up">
-        <!-- <h2 class="display-huge mb-5">
-          <span class="fs-4 me-2 fw-light">$</span><span class="border-bottom border-5">499</span><span class="fs-6 fw-light">/day</span></h2> -->
-        <p class="lead text-secondary">Reach out to us and let's start your journey towards IT excellence together. We are not just another IT services company. We're your partners in navigating the complex world of IT.</p>
-        <a href="mailto:Finance@engene.com.sg" class="btn btn-xl btn-light">Start your Tranformation Journey Today
-          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
-    <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
-  </svg>
-  </a>
-      </div>
-    </div>
-  </div>
-
-  
-
-  </div>
-
-  <div class="bg-black position-relative" id="location">
-    <div class="container px-vw-5 py-vh-5">
-      <div class="row d-flex align-items-center">
-
-        <div class="col-12 col-lg-7" style="text-align: center;" data-aos="fade" >
-          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15955.202555962853!2d103.8493869!3d1.2941249499999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da19a3e144bcb7%3A0x18ad3bab5445da75!2sSingapore%20179934!5e0!3m2!1sen!2sph!4v1718289853377!5m2!1sen!2sph" width="500" height="450" style="border:0;" allowfullscreen=""  referrerpolicy="no-referrer-when-downgrade"></iframe> </div>
-        <div class="col-12 col-lg-5 bg-dark rounded-5 py-5" data-aos="fade">
-          <span class="h5 text-secondary fw-lighter">Find us at</span>
-          <h2 class="display-4">Engene Pte Ltd</h2>
-          <h2 class="display-4" style="font-size: 40px;">36 Armenia Street</h2>
-          <h2 class="display-4" style="font-size: 30px;">#06-12</h2>
-          <h2 class="display-4" style="font-size: 20px;">Singapore 179934</h2>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <footer class=" border-top border-dark" style="background-color: white;">
-   
-    <div class="container text-center small py-vh-2 border-top border-dark"  style="color:black">
-      Copyright © 2024. All rights reserved.
-    </div>
-  </footer>
-
-
-<!-- 
- 
-
-  <div class="bg-black">
-  <div class="container px-vw-5 py-vh-5">
-    <div class="row d-flex align-items-center">
-      <div class="col-12 col-lg-5 text-center text-lg-end" data-aos="zoom-in-right">
-        <span class="h5 text-secondary fw-lighter">What we charge</span>
-        <h2 class="display-4">You get all our knowledge for one simple price</h2>
-      </div>
-      <div class="col-12 col-lg-7 bg-dark rounded-5 py-vh-3 text-center my-5" data-aos="zoom-in-up">
-        <h2 class="display-huge mb-5">
-          <span class="fs-4 me-2 fw-light">$</span><span class="border-bottom border-5">499</span><span class="fs-6 fw-light">/day</span></h2>
-        <p class="lead text-secondary">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-        <a href="#" class="btn btn-xl btn-light">Sign up
-          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
-    <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
-  </svg>
-  </a>
-      </div>
-    </div>
-  </div>
-
-  </div>
-  <div class="container-fluid px-vw-5 position-relative" data-aos="fade">
-  <div class="position-absolute w-100 h-50 bg-black top-0 start-0"></div>
-  <div class="position-relative py-vh-5 bg-cover bg-center rounded-5" style="background-image: url(img/webp/abstract12.webp)">
-    <div class="container bg-black px-vw-5 py-vh-3 rounded-5 shadow">
-    <div class="row d-flex align-items-center">
-
-    <div class="col-6 d-flex align-items-center bg-dark shadow rounded-5 p-0" data-aos="zoom-in-up">
-      <div class="row d-flex justify-content-center">
-        <div class="col-12">
-      <img src="img/webp/person103.webp" width="684" height="457" alt="our CEO with some nice numbers" class="img-fluid rounded-5" >
-    </div>
-    <div class="col-12 col-lg-10 col-xl-8 text-center my-5">
-      <p class="lead border-bottom pb-4 border-secondary">"Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet."</p>
-      <p class="text-secondary text-center">Jane Doe, CEO</p>
-  </div>
-  </div>
-  </div>
-    <div class="col-5 offset-1">
-      <span class="h5 text-secondary fw-lighter">The numbers</span>
-      <h2 class="display-huge fw-bolder" data-aos="zoom-in-left">+400</h2>
-  <p class="h4 fw-lighter text-secondary">
-      Lorem ipsum dolor sit amet, consetetur sadipscing elitr.
-  </p>
-
-  <h2 class="display-huge fw-bolder border-top border-secondary pt-5 mt-5" data-aos="zoom-in-left">78.981</h2>
-  <p class="h4 fw-lighter text-secondary">
-  Lorem ipsum dolor sit amet, consetetur sadipscing elitr.
-  </p>
-  <h2 class="display-huge fw-bolder border-top border-secondary pt-5 mt-5" data-aos="zoom-in-left">98%</h2>
-  <p class="h4 fw-lighter text-secondary">
-  Lorem ipsum dolor sit amet, consetetur sadipscing elitr.
-  </p>
-  </div>
-    </div>
-  </div>
-
-  </div>
-  </div>
-
-  
-  <div class="bg-dark py-vh-5">
-  <div class="container px-vw-5">
-    <div class="row d-flex gx-5 align-items-center">
-      <div class="col-12 col-lg-6">
-        <div class="rounded-5 bg-black p-5 shadow" data-aos="zoom-in-right">
-          <div class="fs-1">
-            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
-    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
-  </svg>
-
-
-            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
-    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
-  </svg>
-
-
-            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
-    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
-  </svg>
-
-
-            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
-    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
-  </svg>
-
-
-            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
-    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
-  </svg>
-
-
-          </div>
-          <p class="text-secondary lead">"Lorem ipsum dolor sit amet, consectetur tempor incididunt ut labore et dolore magna aliqua ullamco laboris nisi ut aliquip ex ea commodo consequat."</p>
-          <div class="d-flex justify-content-start align-items-center border-top border-secondary pt-3">
-            <img src="img/webp/person14.webp" width="96" height="96" class="rounded-circle me-3" alt="a nice person" data-aos="fade" >
-            <div>
-              <span class="h6 fw-5">Jane Doemunsky</span><br>
-              <small class="text-secondary">COO, The Boo Corp.</small>
+                </h3>
+              </div>
+            
             </div>
           </div>
-        </div>
-        <div class="rounded-5 bg-black p-5 shadow mt-5" data-aos="zoom-in-right">
-          <div class="fs-1">
-            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
-    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
-  </svg>
 
 
-            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
-    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
-  </svg>
-
-
-            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
-    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
-  </svg>
-
-
-            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
-    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
-  </svg>
-
-
-            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-half" viewBox="0 0 16 16">
-    <path d="M5.354 5.119 7.538.792A.516.516 0 0 1 8 .5c.183 0 .366.097.465.292l2.184 4.327 4.898.696A.537.537 0 0 1 16 6.32a.548.548 0 0 1-.17.445l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256a.52.52 0 0 1-.146.05c-.342.06-.668-.254-.6-.642l.83-4.73L.173 6.765a.55.55 0 0 1-.172-.403.58.58 0 0 1 .085-.302.513.513 0 0 1 .37-.245l4.898-.696zM8 12.027a.5.5 0 0 1 .232.056l3.686 1.894-.694-3.957a.565.565 0 0 1 .162-.505l2.907-2.77-4.052-.576a.525.525 0 0 1-.393-.288L8.001 2.223 8 2.226v9.8z"/>
-  </svg>
-
+          <div class="py-vh-3">
+            <div class="container px-vw-5 py-vh-3 rounded-5 ">
+              <div style="text-align: center">
+                <span class="h2 fw-lighter">How We Help <br><br></span>
+              </div>
+              
+            <div class="row gx-5">
+              
+              <div class="col-lg-4">
+                <div class="card bg-transparent mb-5" data-aos="zoom-in-up">
+                  <div class="  rounded-5 p-0">
+                    <img src="img/help/cost.jpg" width="582" height="327" alt="abstract image" class="img-fluid rounded-5 no-bottom-radius" >
+                    <div class="p-5">
+                      <h3 class="fs-8  lh-lg fw-bold">Save Cost</h2>
+                      <p class="pb-4 text-opacity-50 lh-xl mb-0 ">
+                        Optimise IT spending and manpower costs to maximise IT value aligned with your business goals. With AvailEaseTM, you can ensure a predictable IT spending as we plan and prioritise technology initiatives based on your scalable needs.
+                        </p>
+                      
+                    </div>
+                  </div>
+                </div>
+              </div>
+        
+              <div class="col-lg-4">
+                <div class="card bg-transparent mb-5" data-aos="zoom-in-up">
+                  <div class=" rounded-5 p-0">
+                    <img src="img/help/simplify.jpg" width="582" height="327" alt="abstract image" class="img-fluid rounded-5 no-bottom-radius" >
+                    <div class="p-5" >
+                      <h3 class="fs-8  lh-lg fw-bold" >Simplify and Standardise</h2>
+                      <p class="pb-4 text-opacity-50 lh-xl mb-0">
+                        Build a strong digital-first foundation with IT best practices to manage a hybrid environment confidently. Enjoy operational efficiencies with reduced cost and risk by uniting IT workflows for user support, security, and IT asset management. </p>
+                     
+                    </div>
+                  </div>
+                </div>
+              </div>
+        
+              <div class="col-lg-4">
+                <div class="card bg-transparent mb-5" data-aos="zoom-in-up">
+                  <div class=" rounded-5 p-0">
+                    <img src="img/help/it.jpg" width="582" height="327" alt="abstract image" class="img-fluid rounded-5 no-bottom-radius" >
+                    <div class="p-5">
+                      <h3 class="fs-8  lh-lg fw-bold" >IT Resilience</h2>
+                      <p class="pb-4 text-opacity-50 lh-xl mb-0">
+                        Manage business disruption risks to critical systems and services in real-time for a reliable IT operation. We will help you enhance business continuity with robust IT SOPs and proactive monitoring so you can deliver on your business commitments and customer expectations on service levels and data protection.</p>
+                     
+                    </div>
+                  </div>
+                </div>
+              </div>
+        
+              <div class="col-lg-4">
+                <div class="card bg-transparent mb-5" data-aos="zoom-in-up">
+                  <div class=" rounded-5 p-0">
+                    <img src="img/help/agility.jpg" width="582" height="50" alt="abstract image" class="img-fluid rounded-5 no-bottom-radius" >
+                    <div class="p-5">
+                      <h3 class="fs-8  lh-lg fw-bold" >Agility</h2>
+                      <p class="pb-4 text-opacity-50 lh-xl mb-0">
+                        Leverage IT for growth while staying compliant to fast-changing regulatory requirements. We will help you implement the right modern technologies and ensure safe and effective use of technologies to raise employee productivity and accelerate speed to market.
+                      </p>
+                      
+                    </div>
+                  </div>
+                </div>
+              </div>
+        
+              <div class="col-lg-4">
+                <div class="card bg-transparent mb-5" data-aos="zoom-in-up">
+                  <div class=" rounded-5 p-0">
+                    <img src="img/help/futureProof.jpg" width="582" height="327" alt="abstract image" class="img-fluid rounded-5 no-bottom-radius" >
+                    <div class="p-5">
+                      <h3 class="fs-8  lh-lg fw-bold" >Future-Proof your Business</h2>
+                      <p class="pb-4 text-opacity-50 lh-xl mb-0">
+                        Modernise your business and evolve with the ever-changing technology landscape to stay competitive and relevant for your customers and employees. As your IT Manager and technology advisor, we provide practical and holistic advice to connect IT strategy and business goals for sustainable digital transformation at affordable costs.</p>
+                     
+                    </div>
+                  </div>
+                </div>
+              </div>
+        
+              <div class="col-lg-4">
+                <div class="card bg-transparent mb-5" data-aos="zoom-in-up">
+                  <div class=" rounded-5 p-0">
+                    <img src="img/help/peace.jpg" width="582" height="327" alt="abstract image" class="img-fluid rounded-5 no-bottom-radius" >
+                    <div class="p-5">
+                      <h3 class="fs-8  lh-lg fw-bold" >Peace Of Mind</h2>
+                      <p class="text-opacity-50 lh-xl mb-0" style="">Backed by a team of specialist including:</p>
+                      <ul class="pb-4 text-opacity-50 lh-xl mb-0" style="">
+                        <li><b>Client Service Advisors </b>(Managed services point of contact)</li>
+                        <li><b>Client Technical Advisors</b> (Technical expertise)</li>
+                        <li><b>Project Engineers</b> (Implementation expertise)</li>
+                        <li><b>Field Engineers</b> (On-site technical support)</li>
+                        <li><b>Network Operations Centre</b> (24x7 remote monitoring and Helpdesk)</li>
+                        <li><b>Governance Consultants </b>(Technology compliance and certification expertise)</li>
+                      </ul>
+                      <!-- <a href="#" class="link-fancy link-fancy-light">Read more</a> -->
+                    </div>
+                  </div>
+                </div>
+              </div>
+        
+        
+             
+        
+              
+        
+        
+            </div>
+        
           </div>
-          <p class="text-secondary lead">"Lorem ipsum dolor sit amet, consectetur tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam. quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."</p>
-          <div class="d-flex justify-content-start align-items-center border-top border-secondary pt-3">
-            <img src="img/webp/person13.webp" width="96" height="96" class="rounded-circle me-3" alt="a nice person" data-aos="fade" >
-            <div>
-              <span class="h6 fw-5">Jane Doemunsky</span><br>
-              <small class="text-secondary">COO, The Boo Corp.</small>
+        
+        
+        
+          
+        
+          </div>
+
+          <section class="experience position-relative overflow-hidden" id="location">
+            <div class="container">
+              <div class="row justify-content-center">
+                <div class="col-12">
+               
+                  <div class="position-relative z-1 text-center mb-8 mb-lg-9 video-player-paused" data-video-player-container="data-video-player-container">
+                    <h3 class="fs-4 fs-lg-3 fw-bold text-center mb-2 mb-lg-x1"> Find us <span class="text-nowrap">at</span></h3>
+                    <p class="fs-8 mb-7 mb-lg-8 text-center lh-lg" >Engene Pte Ltd
+                      36 Armenia Street
+                      #06-12
+                      Singapore 179934</p>
+                  
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15955.202555962853!2d103.8493869!3d1.2941249499999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da19a3e144bcb7%3A0x18ad3bab5445da75!2sSingapore%20179934!5e0!3m2!1sen!2sph!4v1718289853377!5m2!1sen!2sph" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+                  </div>
+                </div>
+                <!-- <div class="col-md-8 col-lg-7">
+                  <h2 class="fs-4 fs-lg-3 fw-bold text-center text-white mb-5 mb-lg-9 lh-sm">Our IT Consulting Services Offering</h2>
+                </div>
+                <div class="col-12">
+                  <div class="row gy-4 g-md-3  px-1">
+                    <div class="col-12 col-md-6 col-lg-4 d-flex align-items-start gap-2"><img src="img/meeting.png" alt="" />
+                      <div>
+                        <h5 class="fs-8 text-white lh-lg fw-bold">General Consulting</h5>
+                        <p class="text-white text-opacity-50 lh-xl mb-0">Feeling overwhelmed by the complexities of IT management? Our General Consulting service is here to help. Our consultants, with their extensive experience holding senior level positions and industry expertise, can provide personalized IT guidance tailored to your business needs. Picture your business with an efficient, secure IT infrastructure that aligns perfectly with your goals.</p>
+                      </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4 d-flex align-items-start gap-2"><img src="img/product.png" alt="" />
+                      <div>
+                        <h5 class="fs-8 text-white lh-lg fw-bold">Business Technology review, IT Strategy & Road Mapping</h5>
+                        <p class="text-white text-opacity-50 lh-xl mb-0">Is your business struggling to keep up with the rapidly evolving tech landscape? Our Business Technology Review, IT Strategy and Road Mapping service helps you develop a strategic IT plan aligned with your business objectives.
+
+                          Imagine having a clear roadmap that guides your IT initiatives and investments, keeping you ahead of the curve.</p>
+                      </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4 d-flex align-items-start gap-2"><img src="img/network-security.png" alt="" />
+                      <div>
+                        <h5 class="fs-8 text-white lh-lg fw-bold">IT Security & Risk Management</h5>
+                        <p class="text-white text-opacity-50 lh-xl mb-0">Worried about the rise in cyber threats?
+
+                          Our IT Security & Risk Management service provides robust security solutions to safeguard your business.
+                          
+                          Picture your business data and systems secure from threats, with risks managed and compliance ensured.</p>
+                      </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4 d-flex align-items-start gap-2"><img src="img/brain.png" alt="" />
+                      <div>
+                        <h5 class="fs-8 text-white lh-lg fw-bold">IT Business Intelligence</h5>
+                        <p class="text-white text-opacity-50 lh-xl mb-0">Are you looking to make better decisions for your business?
+
+                          Our IT Business Intelligence service can help you do just that. We offer expertise in documenting and reviewing digital transformation plans, optimizing business processes. Imagine the power of having all the information you need at your fingertips, allowing you to make informed decisions and drive your business forward.</p>
+                      </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4 d-flex align-items-start gap-2"><img src="img/settings.png" alt="" />
+                      <div>
+                        <h5 class="fs-8 text-white lh-lg fw-bold">Systems Architecture & Design</h5>
+                        <p class="text-white text-opacity-50 lh-xl mb-0">Concerned about the complexity of your IT systems?
+
+                          Our Systems Architecture & Design service offers comprehensive solutions to streamline your business operations.
+                          
+                          Imagine your business systems, seamlessly integrated and designed for efficiency, with complexity managed and performance optimized.</p>
+                      </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4 d-flex align-items-start gap-2"><img src="img/data-server.png" alt="" />
+                      <div>
+                        <h5 class="fs-8 text-white lh-lg fw-bold">Network & Infrastructure Design & Implementation</h5>
+                        <p class="text-white text-opacity-50 lh-xl mb-0">Pondering over the intricacies of your network infrastructure? Our Network Infrastructure Design & Implementation service delivers resilient network solutions tailored to your business needs. Envision your business network, expertly designed and implemented for high availability, with complexities navigated and connectivity ensured.</p>
+                      </div>
+                    </div>
+                  </div>
+                </div> -->
+              </div>
+            </div>
+            <div class="container py-8 py-lg-9">
+              <div class="row justify-content-center">
+                <div class="col-md-8 col-lg-8">
+                  <div class="row justify-content-center">
+                    <div class="col-12 col-lg-10">
+                      <h2 class="fs-4  fw-bold text-center mb-2 lh-sm text-white lh-lg fw-bold">Are you ready to transform your IT challenges into opportunities?</h2>
+                      <p class="fs-8 mb-5 mb-lg-6 text-center lh-lg fw-normal text-white  lh-xl mb-0"> Reach out to us and let's start your journey towards IT excellence together. We are not just another IT services company. We're your partners in navigating the complex world of IT.</p>
+                    </div>
+                    <div class="col-10 col-lg-7">
+                      <!-- <form method="POST" onsubmit="return false;">
+                        <div class="mb-2 w-100"><input class="form-control email-input" id="email" type="email" placeholder="Enter your email" required="required" /></div> -->
+                        <div class="d-grid"><button class="btn btn-lg btn-primary lh-xl mb-x1" type="submit"><a href="mailto:Finance@engene.com.sg" style="color: white;">
+                           Start your transformation journey today 
+                          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                          <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+                        </svg>
+                      </a>
+                       </button></div>
+                      <!-- </form> -->
+                    </div>
+                    <!-- <div class="col-10 col-lg-7">
+                      <p class="text-center lh-lg mb-0">We’ll never share your details with third parties. View our Privacy Policy for more info.</p>
+                    </div> -->
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="position-absolute bottom-0 end-0 z-n1 d-none d-lg-block"><img src="assets/img/illustrations/Green_dots.svg" alt="" /></div>
+            <div class="position-relative bottom-0 start-0 z-1"><img class="img-fluid w-100" src="assets/img/illustrations/Wave_3.svg" alt="" /></div>
+         
+            <div class="position-absolute top-0 start-0 end-0">
+              <div class="bg-white py-3 py-md-9 py-xl-10"> </div><img class="wave" src="assets/img/illustrations/Wave_2.svg" alt="" />
+            </div>
+          </section>
+
+          <footer class="pt-7 pt-lg-8">
+            <div class="container">
+              <!-- <div class="row gy-4 g-md-3 border-bottom pb-8 pb-lg-9 justify-content-center">
+                <div class="col-6 col-md-3">
+                  <p class="mb-2 lh-lg ls-1">Company</p>
+                  <ul class="list-unstyled text-1100">
+                    <li class="mb-1"> <a class="ls-1 lh-xl" href="#about">About us</a></li>
+                    <li class="mb-1"> <a class="ls-1 lh-xl" href="#contact"> Contact us</a></li>
+                    <li class="mb-1"> <a class="ls-1 lh-xl" href="#!">Careers</a></li>
+                    <li class="mb-1"> <a class="ls-1 lh-xl" href="#!">Press</a></li>
+                  </ul>
+                </div>
+                <div class="col-6 col-md-3">
+                  <p class="mb-2 lh-lg">Product</p>
+                  <ul class="list-unstyled text-1100">
+                    <li class="mb-1"> <a class="ls-1 lh-xl" href="#!">Features</a></li>
+                    <li class="mb-1"> <a class="ls-1 lh-xl" href="#!"> Pricing</a></li>
+                    <li class="mb-1"> <a class="ls-1 lh-xl" href="#!"> News</a></li>
+                    <li class="mb-1"> <a class="ls-1 lh-xl" href="#!"> Help desk</a></li>
+                    <li class="mb-1"><a class="ls-1 lh-xl" href="#!"> Support</a></li>
+                  </ul>
+                </div>
+                <div class="col-6 col-md-3">
+                  <p class="mb-2 lh-lg"> Legal</p>
+                  <ul class="list-unstyled text-1100">
+                    <li class="mb-1"> <a class="ls-1 lh-xl" href="#!">Privacy</a></li>
+                    <li class="mb-1"> <a class="ls-1 lh-xl" href="#!"> Terms & Conditions</a></li>
+                    <li class="mb-1"> <a class="ls-1 lh-xl" href="#!"> Return Policy</a></li>
+                  </ul>
+                </div>
+                <div class="col-6 col-md-3 d-md-flex flex-column align-items-md-end pe-md-0">
+                  <div>
+                    <p class="mb-2 lh-lg"> Download Our App</p>
+                    <div class="mb-1 mb-lg-2"> <a class="border-0 p-0 bg-transparent cursor-pointer rounded-1" href="#!"> <img class="img-fluid" src="assets/img/logos/App_Store.webp" alt="assets/img/logos/App_Store.webp" /></a></div><a class="border-0 p-0 bg-transparent cursor-pointer rounded-1" href="#!"> <img class="img-fluid" src="assets/img/logos/Play_Store.webp" alt="assets/img/logos/Play_Store.webp" /></a>
+                  </div>
+                </div>
+              </div> -->
+              <div class="row gy-2 py-3 justify-content-center justify-content-md-between">
+                <div class="col-auto ps-0">
+                  <p class="text-center text-md-start lh-xl text-1100"> © 2024 Copyright, All Right Reserved</p>
+                </div>
+                <!-- <div class="col-auto pe-0"><a class="icons fs-8 me-3 me-md-0 ms-md-3 cursor-pointer" href="#!"><span class="uil uil-twitter"> </span></a><a class="icons fs-8 me-3 me-md-0 ms-md-3 cursor-pointer" href="#!"><span class="uil uil-instagram"></span></a><a class="icons fs-8 me-3 me-md-0 ms-md-3 cursor-pointer" href="#!"><span class="uil uil-linkedin"> </span></a></div> -->
+              </div>
+            </div>
+          </footer>
+
+         
+          
+
+
+         
+
+          <section class="container mb-8 mb-lg-13" id="about">
+            <div class="row align-items-center">
+              <div class="col-12 col-lg-6 col-xl-7"><img class="img-fluid" src="assets/img/Hero/Team.webp" alt="" /></div>
+              <div class="col-12 col-lg-6 col-xl-5">
+                <div class="row justify-content-center justify-content-lg-start">
+                  <div class="col-sm-10 col-md-8 col-lg-12">
+                    <h2 class="fs-4 fs-lg-3 fw-bold mb-2 text-center text-lg-start">Collaborate with team members.</h2>
+                    <p class="fs-8 mb-4 mb-lg-5 lh-lg text-center text-lg-start fw-normal">We share common trends and strategies for improving your rental income</p>
+                  </div>
+                  <div class="col-12">
+                    <div class="mb-x1 mb-lg-3">
+                      <h5 class="fs-8 fw-bold lh-lg mb-1">Project Based Groups </h5>
+                      <p class="mb-0 lh-xl">You can use this module to monitor ongoing projects seamlessly.</p>
+                    </div>
+                    <div>
+                      <h5 class="fs-8 fw-bold lh-lg mb-1"> Unlimited Video Meetings</h5>
+                      <p class="lh-xl mb-0">Conduct unlimited video meetings with us for better business operations.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <section class="container mb-8 mb-lg-13">
+            <div class="row align-items-center">
+              <div class="col-12 col-lg-6 col-xl-5 order-lg-1"><img class="img-fluid" src="assets/img/Hero/Collaborator.webp" alt="" /></div>
+              <div class="col-12 col-lg-6 col-xl-7">
+                <div class="row justify-content-center justify-content-lg-start">
+                  <div class="col-sm-10 col-md-8 col-lg-11">
+                    <h2 class="fs-4 fs-lg-3 fw-bold mb-2 text-center text-lg-start"> Organize remote team fast & easily.</h2>
+                    <p class="fs-8 mb-4 mb-lg-5 lh-lg text-center text-lg-start fw-normal">Organizing and managing your remote teams has never been this easy!</p>
+                  </div>
+                  <div class="col-12">
+                    <div class="mb-x1 mb-lg-3">
+                      <h5 class="fs-8 fw-bold lh-lg mb-1">Create Unlimited Teams </h5>
+                      <p class="b-0 lh-xl">Create unlimited teams and boost productivity with efficient collaboration.</p>
+                    </div>
+                    <div>
+                      <h5 class="fs-8 fw-bold lh-lg mb-1"> Hasslefree Chat with Everyone</h5>
+                      <p class="lh-xl mb-0">With unique and simple UIs, keep yourself connected across all the teams.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <section class="container mb-8 mb-lg-11">
+            <div class="row justify-content-center">
+              <div class="col-md-8 col-lg-7">
+                <h3 class="fs-4 fs-lg-3 fw-bold text-center mb-2 mb-lg-x1"> How does <span class="text-nowrap">it work?</span></h3>
+                <p class="fs-8 mb-7 mb-lg-8 text-center lh-lg">You can use this as it is or tweak it as you seem necessary. you seem necessary.</p>
+              </div>
+              <div class="col-12">
+                <div class="row g-sm-2 g-lg-3 align-items-center timeline">
+                  <div class="col-12 col-lg-4 d-flex flex-row flex-lg-column justify-content-center gap-2 gap-sm-x1 gap-md-4 gap-lg-0">
+                    <div class="timeline-step-1 w-25 w-lg-100 mb-4 mb-lg-5 mb-xl-6">
+                      <div class="timeline-item d-flex justify-content-center">
+                        <div class="timeline-icon bg-primary rounded-circle d-flex justify-content-center align-items-center"><span class="fs-6 fs-lg-5 fs-xl-4 text-white"> 1</span></div>
+                      </div>
+                    </div>
+                    <div class="py-1 py-lg-0 px-lg-5 w-75 w-sm-50 w-lg-100 timeline-content">
+                      <h6 class="fs-8 fw-bold text-lg-center lh-lg mb-2">Install App</h6>
+                      <p class="text-lg-center lh-xl mb-0">Install the app with a single click.</p>
+                    </div>
+                  </div>
+                  <div class="col-12 col-lg-4 d-flex flex-row flex-lg-column justify-content-center gap-2 gap-sm-x1 gap-md-4 gap-lg-0">
+                    <div class="timeline-step-2 w-25 w-lg-100 mb-4 mb-lg-5 mb-xl-6">
+                      <div class="timeline-item d-flex justify-content-center">
+                        <div class="timeline-icon bg-success rounded-circle d-flex justify-content-center align-items-center"><span class="fs-6 fs-lg-5 fs-xl-4 text-white"> 2</span></div>
+                      </div>
+                    </div>
+                    <div class="py-1 py-lg-0 px-lg-5 w-75 w-sm-50 w-lg-100 timeline-content">
+                      <h6 class="fs-8 fw-bold text-lg-center lh-lg mb-2">Add Team Members</h6>
+                      <p class="text-lg-center lh-xl mb-0">Start with adding team members to <span class="text-nowrap">your channels. </span></p>
+                    </div>
+                  </div>
+                  <div class="col-12 col-lg-4 d-flex flex-row flex-lg-column justify-content-center gap-2 gap-sm-x1 gap-md-4 gap-lg-0">
+                    <div class="timeline-step-3 position-relative z-1 overflow-hidden w-25 w-lg-100 mb-4 mb-lg-5 mb-xl-6">
+                      <div class="timeline-item d-flex justify-content-center">
+                        <div class="timeline-icon bg-info rounded-circle d-flex justify-content-center align-items-center"><span class="fs-6 fs-lg-5 fs-xl-4 text-white"> 3</span></div>
+                      </div>
+                    </div>
+                    <div class="py-1 py-lg-0 px-lg-5 w-75 w-sm-50 w-lg-100 timeline-content">
+                      <h6 class="fs-8 fw-bold text-lg-center lh-lg mb-2">Start Rolling</h6>
+                      <p class="text-lg-center lh-xl mb-0">Start operating your business in a simpler way <span class="text-nowrap">and grow!</span></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+        
+          <section class="bg-1100 mt-n1">
+            <div class="mx-auto text-center">
+              <hr class="horizontal-rule m-0 d-inline-block" />
+            </div>
+            <div class="container pb-8 pb-lg-10">
+              <div class="row justify-content-center">
+                <div class="col-md-8 col-lg-7">
+                  <h2 class="fs-6 fs-lg-5 fw-bold text-white text-center pt-7 pb-4 pt-lg-9 pb-lg-6 lh-lg"> <span class="underline"> 1,749 remote teams </span>have shared their experience with our app!</h2>
+                </div>
+                <div class="col-12 mb-4 mb-lg-6">
+                  <div class="row g-2">
+                    <div class="swiper-theme-container">
+                      <div class="swiper position-relative" data-swiper='{"spaceBetween":20,"mousewheel":{"forceToAxis":true,"sensitiviye":20,"releaseOnEdges":true},"autoplay":{"delay":3000,"disableOnInteraction":false},"breakpoints":{"0":{"slidesPerView":1,"direction":"horizontal","centeredSlide":true,"loop":true},"768":{"direction":"horizontal","centeredSlide":true,"slidesPerView":2,"loop":true},"992":{"slidesPerView":3,"direction":"vertical","loop":false}}}'>
+                        <div class="swiper-wrapper">
+                          <div class="col-12 swiper-slide">
+                            <div class="d-flex justify-content-center gap-2">
+                              <div class="d-flex flex-column flex-lg-row gap-2 px-4 py-x1 review-card-1">
+                                <div class="text-center text-lg-start"><img class="card-image rounded-circle object-fit-cover" src="assets/img/feedback/reviewer_1.webp" alt="" /></div>
+                                <div class="text-center text-lg-start">
+                                  <p class="fs-8 mb-2 lh-lg line-clamp-3 text-1100">“OMG! I cannot believe that I have got a brand new landing page after getting Omega. It was super easy to edit and publish.”</p>
+                                  <p class="text-800 lh-xl mb-0">Isaac Olson</p>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-12 swiper-slide">
+                            <div class="d-flex justify-content-center gap-2">
+                              <div class="d-flex flex-column flex-lg-row gap-2 px-4 py-x1 review-card-2">
+                                <div class="text-center text-lg-start"><img class="card-image rounded-circle object-fit-cover" src="assets/img/feedback/reviewer_2.webp" alt="" /></div>
+                                <div class="text-center text-lg-start">
+                                  <p class="fs-8 mb-2 lh-lg line-clamp-3 text-1100">“Simply the best. Better than all the rest. I’d recommend this product to beginners and advanced users who want success.”</p>
+                                  <p class="text-800 lh-xl mb-0">Barry Young</p>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-12 swiper-slide">
+                            <div class="d-flex justify-content-center gap-2">
+                              <div class="d-flex flex-column flex-lg-row gap-2 px-4 py-x1 review-card-3">
+                                <div class="text-center text-lg-start"><img class="card-image rounded-circle object-fit-cover" src="assets/img/feedback/reviewer_3.webp" alt="" /></div>
+                                <div class="text-center text-lg-start">
+                                  <p class="fs-8 mb-2 lh-lg line-clamp-3 text-1100">“Must have book for all, who want to be Product Designer or Interaction Designer.”</p>
+                                  <p class="text-800 lh-xl mb-0">Esther Allison</p>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-12 swiper-slide">
+                            <div class="d-flex justify-content-center gap-2">
+                              <div class="d-flex flex-column flex-lg-row gap-2 px-4 py-x1 review-card-4">
+                                <div class="text-center text-lg-start"><img class="card-image rounded-circle object-fit-cover" src="assets/img/feedback/kakashi.webp" alt="" /></div>
+                                <div class="text-center text-lg-start">
+                                  <p class="fs-8 mb-2 lh-lg line-clamp-3 text-1100">“Every day, I eat, sleep, and worry about stupid things. My job is to ensure that these kids have as many days as possible where they can be idiots like this.”</p>
+                                  <p class="text-800 lh-xl mb-0">Kakashi Hatake</p>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-12 swiper-slide">
+                            <div class="d-flex justify-content-center gap-2">
+                              <div class="d-flex flex-column flex-lg-row gap-2 px-4 py-x1 review-card-5">
+                                <div class="text-center text-lg-start"><img class="card-image rounded-circle object-fit-cover" src="assets/img/feedback/obito.webp" alt="" /></div>
+                                <div class="text-center text-lg-start">
+                                  <p class="fs-8 mb-2 lh-lg line-clamp-3 text-1100">“Life isn’t permanent or predictable. You never know when you will run out of time. The best thing you can do is to be honest with those around you and let them know how you really feel. You never know if you have a tomorrow to come.”</p>
+                                  <p class="text-800 lh-xl mb-0">Obito Uchiha</p>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="text-center"><a class="py-1 link-success" href="#!"><span>Read more reviews </span><span class="uil uil-arrow-right icon"></span></a></div>
+              </div>
+            </div>
+          </section>
+          <section class="bg-300" id="pricing">
+            <div class="container py-8 py-lg-10">
+              <div class="row justify-content-center">
+                <div class="col-md-8 col-lg-7">
+                  <h3 class="fs-4 fs-lg-3 fw-bold text-center mb-2 mb-lg-x1 lh-sm">The Workshop</h3>
+                  <p class="fs-8 mb-7 mb-lg-8 text-center lh-lg fw-normal">
+                    A community-based collaborative workplace for I.T professionals to meet and share ideas for a possible new venture. We create an urban sophisticated workspace solution for individuals to network and explore possible opportunities. We have a communal area where you meet and collaborate with like-minded people. You will be surrounded by people you can learn from and who can learn from you.
+                  We are here to better manage the workspace while you and the fellow individuals stay focus on building your ideas.
+                 </p>
+                </div>
+                <div class="col-12">
+                  <div class="d-flex flex-column flex-md-row justify-content-center align-items-center gap-3">
+                    <div class="p-x1 text-center price-card-1 bg-transparent border mb-3 mb-md-0 rounded-2 pricing-card">
+                      <p class="fs-10 text-uppercase mb-3 fw-bold text-primary ls-2"> Starter</p>
+                      <h2 class="mb-3"><span class="fs-6 fs-md-7 fw-bold">$</span><span class="fs-2 fs-md-1 fw-bold">19</span><span class="fs-9 lh-xl font-sans-serif">/ mo</span></h2>
+                      <ul class="list-unstyled fs-8 lh-xl fw-light text-1100 ls-1">
+                        <li class="py-x1 px-1 border-top"> Upto 100 Team Members </li>
+                        <li class="py-x1 px-1 border-top"> 100 GB Cloud Storage </li>
+                        <li class="py-x1 px-1 border-top"> Unlimited Meetings </li>
+                        <li class="py-x1 px-1 border-top"> Premium Support </li>
+                        <li class="mt-1 d-grid"> <button class="btn btn-secondary btn-lg lh-xl">Get Started Now</button></li>
+                      </ul>
+                    </div>
+                    <div class="p-x1 text-center bg-white border shadow-sm rounded-2 pricing-card">
+                      <p class="fs-10 text-uppercase mb-3 fw-bold text-primary ls-2"> Unlimited</p>
+                      <h2 class="mb-3"><span class="fs-6 fs-md-7 fw-bold">$</span><span class="fs-2 fs-md-1 fw-bold">99</span><span class="fs-9 lh-xl font-sans-serif">/ mo</span></h2>
+                      <ul class="list-unstyled fs-8 lh-xl fw-light text-1100 ls-1">
+                        <li class="py-x1 px-1 border-top"> Unlimited Team Members </li>
+                        <li class="py-x1 px-1 border-top"> Unlimited Cloud Storage </li>
+                        <li class="py-x1 px-1 border-top"> Unlimited Meetings </li>
+                        <li class="py-x1 px-1 border-top"> Premium Support </li>
+                        <li class="mt-1 d-grid"> <button class="btn btn-primary btn-lg lh-xl">Get Started Now</button></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <section class="bg-1100">
+            <div class="container">
+              <div class="row py-8 py-md-10 py-lg-11">
+                <div class="col-lg-6">
+                  <div class="row justify-content-center justify-content-lg-start">
+                    <div class="col-md-8 col-lg-12 col-xl-11">
+                      <h2 class="text-white fs-4 fs-lg-3 lh-sm mb-2 text-center text-lg-start fw-bold">We are always here for your backup.</h2>
+                      <p class="fs-8 text-white text-opacity-65 mb-4 mb-md-6 mb-lg-7 lh-lg mb-6 mb-lg-7 text-center text-lg-start"> We share common trends and strategies for creating & improving your text-nowrap rental income.</p>
+                    </div>
+                    <div class="col-lg-10">
+                      <div class="d-flex gap-2 gap-lg-x1 mb-4 mb-lg-5">
+                        <div>
+                          <div class="check-icon bg-success mb-1 rounded-circle d-flex align-items-center justify-content-center"> <span class="uil uil-check text-white"></span></div>
+                        </div>
+                        <div>
+                          <h5 class="fs-8 fw-bold lh-lg mb-1 text-white">Noise Free Locations</h5>
+                          <p class="lh-xl text-white text-opacity-70 mb-0">We ensure noise-free locations for your peace of mind and sound sleep.</p>
+                        </div>
+                      </div>
+                      <div class="d-flex gap-2 gap-lg-x1 mb-4 mb-lg-5">
+                        <div>
+                          <div class="check-icon bg-success mb-1 rounded-circle d-flex align-items-center justify-content-center"> <span class="uil uil-check text-white"></span></div>
+                        </div>
+                        <div>
+                          <h5 class="fs-8 fw-bold lh-lg mb-1 text-white">24/7 Hour Support</h5>
+                          <p class="lh-xl text-white text-opacity-70 mb-0">Get support from our efficient customer support team, 24/7, all year round.</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-6">
+                  <div class="accordion mt-lg-4 ps-3 pe-x1 bg-white" id="accordion">
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="heading1"><button class="accordion-button fs-8 lh-lg fw-bold pt-x1 pb-2" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1" aria-expand="true" aria-controls="collapse1" data-accordion-button="data-accordion-button">How to setup BrainwaveIO?</button></h2>
+                      <div class="accordion-collapse collapse show" id="collapse1" data-bs-parent="#accordion">
+                        <div class="accordion-body lh-xl pt-0 pb-x1">Enjoy the easy setup process with little to no coding knowledge with us!</div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="heading2"><button class="accordion-button fs-8 lh-lg fw-bold pt-x1 pb-2 collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse2" aria-expand="false" aria-controls="collapse2" data-accordion-button="data-accordion-button">Can I use BrainwaveIO for my clients?</button></h2>
+                      <div class="accordion-collapse collapse" id="collapse2" data-bs-parent="#accordion">
+                        <div class="accordion-body lh-xl pt-0 pb-x1">Yes, you can. Enjoy special rates for your first client!</div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="heading3"><button class="accordion-button fs-8 lh-lg fw-bold pt-x1 pb-2 collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse3" aria-expand="false" aria-controls="collapse3" data-accordion-button="data-accordion-button">How often do you release update?</button></h2>
+                      <div class="accordion-collapse collapse" id="collapse3" data-bs-parent="#accordion">
+                        <div class="accordion-body lh-xl pt-0 pb-x1">We will keep updating the theme; stay with us to get updated!</div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="heading4"><button class="accordion-button fs-8 lh-lg fw-bold pt-x1 pb-2 collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse4" aria-expand="false" aria-controls="collapse4" data-accordion-button="data-accordion-button">How can I access to old version?</button></h2>
+                      <div class="accordion-collapse collapse" id="collapse4" data-bs-parent="#accordion">
+                        <div class="accordion-body lh-xl pt-0 pb-x1">Go to your cloud storage and provide the password. You’ll find it there..</div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="heading5"><button class="accordion-button fs-8 lh-lg fw-bold pt-x1 pb-2 collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse5" aria-expand="false" aria-controls="collapse5" data-accordion-button="data-accordion-button">How can I get your support?</button></h2>
+                      <div class="accordion-collapse collapse" id="collapse5" data-bs-parent="#accordion">
+                        <div class="accordion-body lh-xl pt-0 pb-x1">To reach our support team, simply send an email to support@brainwaveio.com. Our team will promptly address your inquiry and provide assistance as needed.</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+         
+        </div><button class="btn scroll-to-top text-white rounded-circle d-flex justify-content-center align-items-center bg-primary" data-scroll-top="data-scroll-top" ><span class="uil uil-angle-up"></span></button>
+        <footer class="pt-7 pt-lg-8">
+          <div class="container">
+            <!-- <div class="row gy-4 g-md-3 border-bottom pb-8 pb-lg-9 justify-content-center">
+              <div class="col-6 col-md-3">
+                <p class="mb-2 lh-lg ls-1">Company</p>
+                <ul class="list-unstyled text-1100">
+                  <li class="mb-1"> <a class="ls-1 lh-xl" href="#about">About us</a></li>
+                  <li class="mb-1"> <a class="ls-1 lh-xl" href="#contact"> Contact us</a></li>
+                  <li class="mb-1"> <a class="ls-1 lh-xl" href="#!">Careers</a></li>
+                  <li class="mb-1"> <a class="ls-1 lh-xl" href="#!">Press</a></li>
+                </ul>
+              </div>
+              <div class="col-6 col-md-3">
+                <p class="mb-2 lh-lg">Product</p>
+                <ul class="list-unstyled text-1100">
+                  <li class="mb-1"> <a class="ls-1 lh-xl" href="#!">Features</a></li>
+                  <li class="mb-1"> <a class="ls-1 lh-xl" href="#!"> Pricing</a></li>
+                  <li class="mb-1"> <a class="ls-1 lh-xl" href="#!"> News</a></li>
+                  <li class="mb-1"> <a class="ls-1 lh-xl" href="#!"> Help desk</a></li>
+                  <li class="mb-1"><a class="ls-1 lh-xl" href="#!"> Support</a></li>
+                </ul>
+              </div>
+              <div class="col-6 col-md-3">
+                <p class="mb-2 lh-lg"> Legal</p>
+                <ul class="list-unstyled text-1100">
+                  <li class="mb-1"> <a class="ls-1 lh-xl" href="#!">Privacy</a></li>
+                  <li class="mb-1"> <a class="ls-1 lh-xl" href="#!"> Terms & Conditions</a></li>
+                  <li class="mb-1"> <a class="ls-1 lh-xl" href="#!"> Return Policy</a></li>
+                </ul>
+              </div>
+              <div class="col-6 col-md-3 d-md-flex flex-column align-items-md-end pe-md-0">
+                <div>
+                  <p class="mb-2 lh-lg"> Download Our App</p>
+                  <div class="mb-1 mb-lg-2"> <a class="border-0 p-0 bg-transparent cursor-pointer rounded-1" href="#!"> <img class="img-fluid" src="assets/img/logos/App_Store.webp" alt="assets/img/logos/App_Store.webp" /></a></div><a class="border-0 p-0 bg-transparent cursor-pointer rounded-1" href="#!"> <img class="img-fluid" src="assets/img/logos/Play_Store.webp" alt="assets/img/logos/Play_Store.webp" /></a>
+                </div>
+              </div>
+            </div> -->
+            <div class="row gy-2 py-3 justify-content-center justify-content-md-between">
+              <div class="col-auto ps-0">
+                <p class="text-center text-md-start lh-xl text-1100"> © 2024 Copyright, All Right Reserved</p>
+              </div>
+              <!-- <div class="col-auto pe-0"><a class="icons fs-8 me-3 me-md-0 ms-md-3 cursor-pointer" href="#!"><span class="uil uil-twitter"> </span></a><a class="icons fs-8 me-3 me-md-0 ms-md-3 cursor-pointer" href="#!"><span class="uil uil-instagram"></span></a><a class="icons fs-8 me-3 me-md-0 ms-md-3 cursor-pointer" href="#!"><span class="uil uil-linkedin"> </span></a></div> -->
             </div>
           </div>
-        </div>
-
+        </footer>
       </div>
+    </main><!-- ===============================================--><!--    End of Main Content--><!-- ===============================================-->
 
 
 
-      <div class="col-12 col-lg-6">
-        <div class="p-5 pt-0" data-aos="fade">
-          <span class="h5 text-secondary fw-lighter">What others have to say</span>
-          <h2 class="display-4">Invidunt ut labore et dolore magna aliquyam erat.</h2>
-        </div>
-        <div class="rounded-5 bg-black p-5 shadow mt-5 gradient" data-aos="zoom-in-left">
-          <div class="fs-1">
-            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
-    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
-  </svg>
+    <!-- ===============================================--><!--    JavaScripts--><!-- ===============================================-->
+    <script src="vendors/popper/popper.min.js"></script>
+    <script src="vendors/bootstrap/bootstrap.min.js"></script>
+    <script src="vendors/is/is.min.js"></script>
+    <script src="vendors/countup/countUp.umd.js"></script>
+    <script src="vendors/swiper/swiper-bundle.min.js"></script>
+    <script src="vendors/lodash/lodash.min.js"></script>
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=window.scroll"></script>
+    <script src="assets/js/theme.js"></script>
+  </body>
 
-
-            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
-    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
-  </svg>
-
-
-            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
-    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
-  </svg>
-
-
-            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
-    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
-  </svg>
-
-
-            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
-    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
-  </svg>
-
-
-          </div>
-          <p class="lead">"Consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."</p>
-          <div class="d-flex justify-content-start align-items-center border-top pt-3">
-            <img src="img/webp/person16.webp" width="96" height="96" class="rounded-circle me-3" alt="a nice person" data-aos="fade" >
-            <div>
-              <span class="h6 fw-5">Jane Doemunsky</span><br>
-              <small>COO, The Boo Corp.</small>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  </div>
-
-      </main>
-
-     
-
-
-
-
- -->
-
-
-  <script src="js/bootstrap.bundle.min.js"></script>
-  <script src="js/aos.js"></script>
-  <script>
-  AOS.init({
-  duration: 800, // values from 0 to 3000, with step 50ms
-  });
-  </script>
-  <script>
-    let scrollpos = window.scrollY
-    const header = document.querySelector(".navbar")
-    const header_height = header.offsetHeight
-
-    const add_class_on_scroll = () => header.classList.add("scrolled", "shadow-sm")
-    const remove_class_on_scroll = () => header.classList.remove("scrolled", "shadow-sm")
-
-    window.addEventListener('scroll', function() {
-      scrollpos = window.scrollY;
-
-      if (scrollpos >= header_height) { add_class_on_scroll() }
-      else { remove_class_on_scroll() }
-
-      console.log(scrollpos)
-    })
-  </script>
-
-    </body>
-  </html>
+</html>
