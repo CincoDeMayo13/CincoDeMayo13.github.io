@@ -3904,8 +3904,8 @@ fieldset:disabled .btn {
 }
 .btn-primary {
   --brainwaveio-btn-color: #fff;
-  --brainwaveio-btn-bg: #224e26;
-  --brainwaveio-btn-border-color: #224e26;
+  --brainwaveio-btn-bg: #EE92A9;
+  --brainwaveio-btn-border-color: #EE92A9;
   --brainwaveio-btn-hover-color: #fff;
   --brainwaveio-btn-hover-bg: #d24141;
   --brainwaveio-btn-hover-border-color: #c63e3e;
@@ -4690,7 +4690,7 @@ fieldset:disabled .btn {
     var(--brainwaveio-nav-link-padding-x);
   font-size: var(--brainwaveio-nav-link-font-size);
   font-weight: var(--brainwaveio-nav-link-font-weight);
-  color: var(--brainwaveio-nav-link-color);
+  color: black;
   background: none;
   border: 0;
   -webkit-transition: color 0.15s ease-in-out,
@@ -10766,8 +10766,7 @@ fieldset:disabled .btn {
 .text-white {
   --brainwaveio-text-opacity: 1;
   color: rgba(
-    var(--brainwaveio-white-rgb),
-    var(--brainwaveio-text-opacity)
+   0,0,0
   ) !important;
 }
 .text-body {
@@ -11090,7 +11089,7 @@ fieldset:disabled .btn {
 }
 .bg-primary {
   --brainwaveio-bg-opacity: 1;
-  background-color: #224e26
+  background-color: #EE92A9
   /* background-color: rgba(
     var(--brainwaveio-primary-rgb),
     var(--brainwaveio-bg-opacity)
@@ -20699,7 +20698,7 @@ h6,
 }
 .hero-section .hero-background {
   /* background-image: url("../img/illustrations/BG.webp"); */
-  background-color: #68B684
+  background-color: #FFD869
   ;
   background-position: center;
   background-size: cover;
@@ -20815,7 +20814,7 @@ h6,
   );
   background: -o-linear-gradient(top, #313c59, #161c2d);
   background: linear-gradient(to bottom, #313c59, #161c2d); */
-  background-color: #68B684;
+  background-color: #FFD869;
 }
 .experience .dots {
   left: -5%;

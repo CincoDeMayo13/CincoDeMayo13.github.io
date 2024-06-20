@@ -415,7 +415,7 @@ var navbarInit = function navbarInit() {
       var scrollTop = window.scrollY;
       var alpha = scrollTop / windowHeight * 2;
       alpha >= 1 && (alpha = 1);
-      navbar.style.backgroundColor = "rgba(103, 101, 131, ".concat(alpha, ")");
+      navbar.style.backgroundColor = "rgba(238, 146, 169, ".concat(alpha, ")");
     };
     handleAlpha();
     document.addEventListener('scroll', function () {
