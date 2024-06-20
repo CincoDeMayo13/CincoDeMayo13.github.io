@@ -4979,7 +4979,8 @@ fieldset:disabled .btn {
   width: 1.5em;
   height: 1.5em;
   vertical-align: middle;
-  background-image: var(--brainwaveio-navbar-toggler-icon-bg);
+   background-image: url("../img/illustrations/hamburger.png");
+  /* background-image: url("../img/hamburger.png"); */
   background-repeat: no-repeat;
   background-position: center;
   background-size: 100%;
