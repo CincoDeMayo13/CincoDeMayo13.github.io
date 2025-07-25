@@ -15,7 +15,7 @@
 
 </head>
 
-<body class="overflow-x-hidden">
+<body class="overflow-x-hidden" style="background-color: #93602E;">
   <!-- Header -->
   <header
   id="navbar"
@@ -86,17 +86,17 @@
     >
       <a
         href="#who"
-        class="hover:text-[#93602E] transition duration-300 delay-100"
+        class="hover:text-[#93602E] transition duration-300 delay-100" style="color: #243878"
         >Who We Are</a
       >
       <a
         href="#what"
-        class="hover:text-[#93602E] transition duration-300 delay-200"
+        class="hover:text-[#93602E] transition duration-300 delay-200" style="color: #243878"
         >What We Do</a
       >
       <a
         href="#why"
-        class="hover:text-[#93602E] transition duration-300 delay-300"
+        class="hover:text-[#93602E] transition duration-300 delay-300" style="color: #243878"
         >Where We Excel</a
       >
     </div>
@@ -194,24 +194,29 @@
 </div>
 
 
-<div class="overflow-hidden py-24 sm:py-32 animate-fade-in-up">
+<div class="overflow-hidden  sm:py-32 animate-fade-in-up">
 
-  <div class="overflow-hidden bg-white pt-12 pb-24 sm:pt-16 sm:pb-32">
+  <div class="overflow-hidden pt-12 pb-24 sm:pt-16 sm:pb-32" style="background-color: #93602E;">
 
     <div class="mx-auto max-w-7xl px-6 lg:px-8">
+       <div
+        class="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2"
+      >
+        <p
+              class="mt-2 text-4xl font-semibold tracking-tight  text-white sm:text-5xl"
+              id="who"
+            >
+              Who We Are <br>
+            </p>
+       </div>
+       <div class="b py-4"></div>
       <div
         class="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2"
       >
         <div class="lg:pr-8">
           <div class="lg:max-w-lg">
-            <p
-              class="mt-2 text-4xl font-semibold tracking-tight text-[#243878] sm:text-5xl"
-              id="who"
-            >
-              Who We Are
-            </p>
-            <p class="mt-6 text-lg/8 text-[#575756]">
-              A client-focused consultancy offering sustainable and cost-effective solutions which improve both the urban and natural environment.
+          
+            <p class="mt-6 text-lg/8  text-white">A client-focused consultancy offering sustainable and cost-effective solutions which improve both the urban and natural environment.
               <br /><br />
 
               A wealth of experience ensures Merine to deliver innovative solutions to the most challenging problems faced by clients across the land, environmental and construction industries.
@@ -233,28 +238,30 @@
       <img
         src="assets/img/illustrations/about8.jpg"
         alt="Product screenshot"
-        class="max-w-full h-auto rounded-xl shadow-xl ring-1 ring-[#93602E]/20 sm:max-w-lg md:max-w-xl lg:max-w-none lg:ml-0"
+        class="max-w-full h-auto rounded-xl shadow-xl ring-1 ring-[#93602E]/20 sm:max-w-lg md:max-w-xl lg:max-w-none lg:ml-0 center"
       />
       </div>
     </div>
   </div>
-  <div class="b py-16" style="background-color: #D2D3D5;">
+  <div class="b py-16" style="background-color: #93602E;">
   <div class="mx-auto max-w-7xl px-6 lg:px-8">
-    <div
-      class="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2"
-    >
-      <div class="lg:pt-4 lg:pr-8">
-        <div class="lg:max-w-lg">
-          <p
-            class="mt-2 text-4xl font-semibold tracking-tight text-[#243878] sm:text-5xl"
+      <p
+            class="mt-2 text-4xl font-semibold tracking-tight sm:text-5xl text-white"
             id="what"
           >
             What We Do
           </p>
+    <div
+      class="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2 text-white" 
+    >
+      <div class="lg:pt-4 lg:pr-8">
+       
+        <div class="lg:max-w-lg ">
+         
           <p class="mt-6 text-lg text-[#575756]"><!-- Intentionally left blank --></p>
           <dl class="mt-10 max-w-xl space-y-8 text-base text-[#575756] lg:max-w-none">
             <div class="relative animate-fade-in-up">
-              <p class="mt-6 text-lg/8 text-[#575756]">
+              <p class="mt-6 text-lg/8 text-white"><br /><br /><br /><br />
                 We believe that services are the backbone of any organisation. That’s why we do what we do – to make a difference and create a lasting impact. We are proud to say that our services are on par with the best in the business. We do what everyone else does, but we do it differently. Our unique approach to services sets us apart from the competition.
                 <br /><br />
                 Our secret to success lies in building rapport. We don’t just create business relationships; we make lasting connections. Our genuine interest in understanding your goals and objectives enables us to provide faster and better results. From traffic and highways to flood risk assessments or planning appeals, we work tirelessly to secure the best possible outcome.
@@ -269,102 +276,68 @@
       </div>
 
       <div class="b py-16">
-        <div class="mx-auto max-w-7xl px-6 lg:px-10">
-          <div class="mx-auto max-w-2xl lg:max-w-5xl">
-            <div
-              class="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-2 justify-items-center"
-            >
-              <!-- Card 1 -->
-              <div class="flex justify-center">
-                <div
-                  onclick="openModal('card1')"
-                  class="cursor-pointer bg-white rounded-xl shadow p-6 transition-transform transform hover:-translate-y-2 hover:shadow-xl text-center border-2 border-[#243878]"
-                >
-                  <h3 class="text-sm font-semibold text-[#243878] mb-2">Procurement</h3>
-                  <div
-                    class="flex items-center justify-center h-16 w-16 mx-auto rounded-lg bg-[#243878] text-white text-2xl"
-                  >
-                    🚀
-                  </div>
-                  <p class="text-sm text-[#575756] mt-3">
-                    Efficient sourcing and vendor management for successful project execution.
-                  </p>
-                </div>
-              </div>
-
-              <!-- Card 2 -->
-              <div class="flex justify-center">
-                <div
-                  onclick="openModal('card2')"
-                  class="cursor-pointer bg-white rounded-xl shadow p-6 transition-transform transform hover:-translate-y-2 hover:shadow-xl text-center border-2 border-[#243878]"
-                >
-                  <h3 class="text-sm font-semibold text-[#243878] mb-2">
-                    Infrastructure / Civil Eng.
-                  </h3>
-                  <div
-                    class="flex items-center justify-center h-16 w-16 mx-auto rounded-lg bg-[#243878] text-white text-2xl"
-                  >
-                    🏗️
-                  </div>
-                  <p class="text-sm text-[#575756] mt-3">
-                    Designing and constructing resilient infrastructure for future-ready cities.
-                  </p>
-                </div>
-              </div>
-
-              <!-- Card 3 -->
-              <div class="flex justify-center">
-                <div
-                  onclick="openModal('card3')"
-                  class="cursor-pointer bg-white rounded-xl shadow p-6 transition-transform transform hover:-translate-y-2 hover:shadow-xl text-center border-2 border-[#243878]"
-                >
-                  <h3 class="text-sm font-semibold text-[#243878] mb-2">Water Management</h3>
-                  <div
-                    class="flex items-center justify-center h-16 w-16 mx-auto rounded-lg bg-[#243878] text-white text-2xl"
-                  >
-                    💧
-                  </div>
-                  <p class="text-sm text-[#575756] mt-3">
-                    Sustainable water systems and eco-friendly solutions for urban environments.
-                  </p>
-                </div>
-              </div>
-
-              <!-- Card 4 -->
-              <div class="flex justify-center">
-                <div
-                  onclick="openModal('card4')"
-                  class="cursor-pointer bg-white rounded-xl shadow p-6 transition-transform transform hover:-translate-y-2 hover:shadow-xl text-center border-2 border-[#243878]"
-                >
-                  <h3 class="text-sm font-semibold text-[#243878] mb-2">Landscape Planning</h3>
-                  <div
-                    class="flex items-center justify-center h-16 w-16 mx-auto rounded-lg bg-[#243878] text-white text-2xl"
-                  >
-                    🌿
-                  </div>
-                  <p class="text-sm text-[#575756] mt-3">
-                    Integrating nature with design to create vibrant, livable outdoor spaces.
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+<div class="mx-auto max-w-4xl px-6 py-8 space-y-8">
+  
+  <!-- Card 1 -->
+  <div
+    onclick="openModal('card1')"
+    class="cursor-pointer bg-white rounded-xl overflow-hidden shadow transition-transform transform hover:-translate-y-1 hover:shadow-lg border-2 border-[#243878]"
+  >
+    <img src="assets/img/illustrations/procurement.jpg" alt="Procurement" class="w-full h-48 object-cover" />
+    <div class="p-4 text-center">
+      <h3 class="text-lg font-semibold text-[#243878]">Procurement</h3>
     </div>
   </div>
+
+  <!-- Card 2 -->
+  <div
+    onclick="openModal('card2')"
+    class="cursor-pointer bg-white rounded-xl overflow-hidden shadow transition-transform transform hover:-translate-y-1 hover:shadow-lg border-2 border-[#243878]"
+  >
+    <img src="assets/img/illustrations/about06.jpg" alt="Environmental Compliance & Consulting" class="w-full h-48 object-cover" />
+    <div class="p-4 text-center">
+      <h3 class="text-lg font-semibold text-[#243878]">Environmental Compliance & Consulting</h3>
+    </div>
   </div>
+
+  <!-- Card 3 -->
+  <div
+    onclick="openModal('card3')"
+    class="cursor-pointer bg-white rounded-xl overflow-hidden shadow transition-transform transform hover:-translate-y-1 hover:shadow-lg border-2 border-[#243878]"
+  >
+    <img src="assets/img/illustrations/water.jpg" alt="Water Management" class="w-full h-48 object-cover" />
+    <div class="p-4 text-center">
+      <h3 class="text-lg font-semibold text-[#243878]">Water Management</h3>
+    </div>
+  </div>
+
+  <!-- Card 4 -->
+  <div
+    onclick="openModal('card4')"
+    class="cursor-pointer bg-white rounded-xl overflow-hidden shadow transition-transform transform hover:-translate-y-1 hover:shadow-lg border-2 border-[#243878]"
+  >
+    <img src="assets/img/illustrations/construction-site.jpg" alt="Landscape Planning" class="w-full h-48 object-cover" />
+    <div class="p-4 text-center">
+      <h3 class="text-lg font-semibold text-[#243878]">Landscape Planning</h3>
+    </div>
+  </div>
+
 </div>
 
 
- <div class="mx-auto max-w-7xl px-6 lg:px-8 bg-no-repeat bg-cover py-24 sm:py-32">
+</div>
+
+    </div>
+  </div>
+  </div>
+   <div class="mx-auto max-w-7xl px-6 " >
   <div
     class="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2"
   >
     <div class="lg:pt-4 lg:pr-8">
       <div class="lg:max-w-lg">
         <p
-          class="mt-2 text-4xl font-semibold tracking-tight text-[#243878] sm:text-5xl"
+          class="mt-2 text-4xl font-semibold tracking-tight text-white sm:text-5xl"
           id="why"
         >
           Where We Excel
@@ -376,217 +349,117 @@
   </div>
 
   <div class="w-full">
-    <div class="flex flex-col w-full mb-10 sm:flex-row">
-      <div class="w-full mb-10 sm:mb-0 sm:w-1/2">
-        <div class="relative h-full ml-0 mr-0 sm:mr-10">
-          <span
-            class="absolute top-0 left-0 w-full h-full mt-1 ml-1 rounded-lg"
-            style="background-color: #243878"
-          ></span>
-          <div
-            class="relative h-full p-5 bg-white border-2 rounded-lg"
-            style="border-color: #243878"
-          >
-            <div class="flex items-center -mt-1">
-              <h3 class="my-2 ml-3 text-lg font-bold text-[#243878]">
-                Proactive Environmental Risk Management
-              </h3>
-            </div>
-            <p
-              class="mt-3 mb-1 text-xs font-medium uppercase"
-              style="color: #243878"
-            >
-              ------------
-            </p>
-            <p class="mb-2" style="color: #575756">
-              We believe that preventing damage will have a more profound benefit
-              to the environment and bottom line, so we offer prevention and risk
-              reduction assistance.
-            </p>
-          </div>
-        </div>
-      </div>
-      <div class="w-full sm:w-1/2">
-        <div class="relative h-full ml-0 md:mr-10">
-          <span
-            class="absolute top-0 left-0 w-full h-full mt-1 ml-1 rounded-lg"
-            style="background-color: #93602E"
-          ></span>
-          <div
-            class="relative h-full p-5 bg-white border-2 rounded-lg"
-            style="border-color: #93602E"
-          >
-            <div class="flex items-center -mt-1">
-              <h3 class="my-2 ml-3 text-lg font-bold text-[#93602E]">
-                Environmental Awareness Culture
-              </h3>
-            </div>
-            <p
-              class="mt-3 mb-1 text-xs font-medium uppercase"
-              style="color: #93602E"
-            >
-              ------------
-            </p>
-            <p class="mb-2" style="color: #575756">
-              A culture of environmental awareness runs through our services.
-            </p>
-          </div>
+  <div class="flex flex-col w-full mb-10 sm:flex-row">
+    <!-- Card 1 -->
+    <div class="w-full mb-10 sm:mb-0 sm:w-1/2">
+      <div class="relative h-full ml-0 mr-0 sm:mr-10 hover:-translate-y-1 hover:shadow-lg border-[#243878]">
+        <span class="absolute top-0 left-0 w-full h-full mt-1 ml-1 rounded-lg" style="background-color: #243878"></span>
+        <div class="relative h-full p-5 bg-white border-2 rounded-lg" style="border-color: #243878">
+          <!-- Add Image Here -->
+          <img src="assets/img/illustrations/risk.jpg" alt="Risk Management" class="w-full h-40 object-cover rounded-md mb-4">
+          <h3 class="my-2 text-lg font-bold text-[#243878]">Proactive Environmental Risk Management</h3>
+          <p class="mt-3 mb-1 text-xs font-medium uppercase text-[#243878]">------------</p>
+          <p class="mb-2 text-[#243878]">
+            We believe that preventing damage will have a more profound benefit to the environment and bottom line...
+          </p>
         </div>
       </div>
     </div>
 
-    <div class="flex flex-col w-full mb-5 sm:flex-row">
-      <div class="w-full mb-10 sm:mb-0 sm:w-1/2">
-        <div class="relative h-full ml-0 mr-0 sm:mr-10">
-          <span
-            class="absolute top-0 left-0 w-full h-full mt-1 ml-1 rounded-lg"
-            style="background-color: #BA5218"
-          ></span>
-          <div
-            class="relative h-full p-5 bg-white border-2 rounded-lg"
-            style="border-color: #BA5218"
-          >
-            <div class="flex items-center -mt-1">
-              <h3 class="my-2 ml-3 text-lg font-bold text-[#BA5218]">
-                Tailored Planning Advice
-              </h3>
-            </div>
-            <p
-              class="mt-3 mb-1 text-xs font-medium uppercase"
-              style="color: #BA5218"
-            >
-              ------------
-            </p>
-            <p class="mb-2" style="color: #575756">
-              We appreciate the challenges involved in the land development
-              process, and to avoid further complications, we aim to provide
-              clear, concise advice, tailored to suit your development proposals.
-            </p>
-          </div>
+    <!-- Card 2 -->
+    <div class="w-full sm:w-1/2">
+      <div class="relative h-full ml-0 md:mr-10 hover:-translate-y-1 hover:shadow-lg border-[#243878]">
+        <span class="absolute top-0 left-0 w-full h-full mt-1 ml-1 rounded-lg" style="background-color: #243878"></span>
+        <div class="relative h-full p-5 bg-white border-2 rounded-lg" style="border-color: #243878">
+          <!-- Add Image Here -->
+          <img src="assets/img/illustrations/culture.jpg" alt="Awareness" class="w-full h-40 object-cover rounded-md mb-4">
+          <h3 class="my-2 text-lg font-bold text-[#243878]">Environmental Awareness Culture</h3>
+          <p class="mt-3 mb-1 text-xs font-medium uppercase text-[#243878]">------------</p>
+          <p class="mb-2 text-[#243878]">A culture of environmental awareness runs through our services.</p>
         </div>
       </div>
+    </div>
+  </div>
 
-      <div class="w-full mb-10 sm:mb-0 sm:w-1/2">
-        <div class="relative h-full ml-0 mr-0 sm:mr-10">
-          <span
-            class="absolute top-0 left-0 w-full h-full mt-1 ml-1 rounded-lg"
-            style="background-color: #5E190E"
-          ></span>
-          <div
-            class="relative h-full p-5 bg-white border-2 rounded-lg"
-            style="border-color: #5E190E"
-          >
-            <div class="flex items-center -mt-1">
-              <h3 class="my-2 ml-3 text-lg font-bold text-[#5E190E]">
-                Reliable Project Resourcing
-              </h3>
-            </div>
-            <p
-              class="mt-3 mb-1 text-xs font-medium uppercase"
-              style="color: #5E190E"
-            >
-              ------------
-            </p>
-            <p class="mb-2" style="color: #575756">
-              We are adequately resourced to ensure that your deadlines are
-              prioritised.
-            </p>
-          </div>
-        </div>
-      </div>
-
-      <div class="w-full sm:w-1/2">
-        <div class="relative h-full ml-0 md:mr-10">
-          <span
-            class="absolute top-0 left-0 w-full h-full mt-1 ml-1 rounded-lg"
-            style="background-color: #93602E"
-          ></span>
-          <div
-            class="relative h-full p-5 bg-white border-2 rounded-lg"
-            style="border-color: #93602E"
-          >
-            <div class="flex items-center -mt-1">
-              <h3 class="my-2 ml-3 text-lg font-bold text-[#93602E]">
-                Reputation for Quality and Value
-              </h3>
-            </div>
-            <p
-              class="mt-3 mb-1 text-xs font-medium uppercase"
-              style="color: #93602E"
-            >
-              ------------
-            </p>
-            <p class="mb-2" style="color: #575756">
-              We are proud of the reputation our organisation has gained through
-              our commitment to quality, reliability, and cost effectiveness.
-            </p>
-          </div>
+  <!-- Next row (3 cards total, 2 shown for layout symmetry) -->
+  <div class="flex flex-col w-full mb-5 sm:flex-row">
+    <!-- Card 3 -->
+    <div class="w-full mb-10 sm:mb-0 sm:w-1/2">
+      <div class="relative h-full ml-0 mr-0 sm:mr-10 hover:-translate-y-1 hover:shadow-lg border-[#243878]">
+        <span class="absolute top-0 left-0 w-full h-full mt-1 ml-1 rounded-lg" style="background-color: #243878"></span>
+        <div class="relative h-full p-5 bg-white border-2 rounded-lg" style="border-color: #243878">
+          <!-- Add Image Here -->
+          <h3 class="my-2 text-lg font-bold text-[#243878]">Tailored Planning Advice</h3>
+          <p class="mt-3 mb-1 text-xs font-medium uppercase text-[#243878]">------------</p>
+          <p class="mb-2 text-[#243878]">We appreciate the challenges involved in the land development process...</p>
         </div>
       </div>
     </div>
 
-    <div class="flex flex-col w-full mb-10 sm:flex-row">
-      <div class="w-full mb-10 sm:mb-0 sm:w-1/2">
-        <div class="relative h-full ml-0 mr-0 sm:mr-10">
-          <span
-            class="absolute top-0 left-0 w-full h-full mt-1 ml-1 rounded-lg"
-            style="background-color: #243878"
-          ></span>
-          <div
-            class="relative h-full p-5 bg-white border-2 rounded-lg"
-            style="border-color: #243878"
-          >
-            <div class="flex items-center -mt-1">
-              <h3 class="my-2 ml-3 text-lg font-bold text-[#243878]">
-                Cost-Effective Land Development Support
-              </h3>
-            </div>
-            <p
-              class="mt-3 mb-1 text-xs font-medium uppercase"
-              style="color: #243878"
-            >
-              ------------
-            </p>
-            <p class="mb-2" style="color: #575756">
-              We excel at supporting the land development process and reducing
-              our clients’ costs, while ensuring that your planning obligations
-              are achieved in a timely fashion.
-            </p>
-          </div>
+    <!-- Card 4 -->
+    <div class="w-full mb-10 sm:mb-0 sm:w-1/2">
+      <div class="relative h-full ml-0 mr-0 sm:mr-10 hover:-translate-y-1 hover:shadow-lg border-[#243878]">
+        <span class="absolute top-0 left-0 w-full h-full mt-1 ml-1 rounded-lg" style="background-color: #243878"></span>
+        <div class="relative h-full p-5 bg-white border-2 rounded-lg" style="border-color: #243878">
+          <!-- Add Image Here -->
+          <h3 class="my-2 text-lg font-bold text-[#243878]">Reliable Project Resourcing</h3>
+          <p class="mt-3 mb-1 text-xs font-medium uppercase text-[#243878]">------------</p>
+          <p class="mb-2 text-[#243878]">We are adequately resourced to ensure that your deadlines are prioritised.</p>
         </div>
       </div>
+    </div>
 
-      <div class="w-full sm:w-1/2">
-        <div class="relative h-full ml-0 md:mr-10">
-          <span
-            class="absolute top-0 left-0 w-full h-full mt-1 ml-1 rounded-lg"
-            style="background-color: #93602E"
-          ></span>
-          <div
-            class="relative h-full p-5 bg-white border-2 rounded-lg"
-            style="border-color: #93602E"
-          >
-            <div class="flex items-center -mt-1">
-              <h3 class="my-2 ml-3 text-lg font-bold text-[#93602E]">
-                Trusted Long-Term Partnership
-              </h3>
-            </div>
-            <p
-              class="mt-3 mb-1 text-xs font-medium uppercase"
-              style="color: #93602E"
-            >
-              ------------
-            </p>
-            <p class="mb-2" style="color: #575756">
-              We want to be your partner of choice, expertise, authority and
-              trust.
-            </p>
-          </div>
+    <!-- Card 5 -->
+    <div class="w-full sm:w-1/2">
+      <div class="relative h-full ml-0 md:mr-10 hover:-translate-y-1 hover:shadow-lg border-[#243878]">
+        <span class="absolute top-0 left-0 w-full h-full mt-1 ml-1 rounded-lg" style="background-color: #243878"></span>
+        <div class="relative h-full p-5 bg-white border-2 rounded-lg" style="border-color: #243878">
+          <!-- Add Image Here -->
+          <h3 class="my-2 text-lg font-bold text-[#243878]">Reputation for Quality and Value</h3>
+          <p class="mt-3 mb-1 text-xs font-medium uppercase text-[#243878]">------------</p>
+          <p class="mb-2 text-[#243878]">We are proud of the reputation our organisation has gained...</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Final row -->
+  <div class="flex flex-col w-full mb-10 sm:flex-row">
+    <!-- Card 6 -->
+    <div class="w-full mb-10 sm:mb-0 sm:w-1/2">
+      <div class="relative h-full ml-0 mr-0 sm:mr-10 hover:-translate-y-1 hover:shadow-lg">
+        <span class="absolute top-0 left-0 w-full h-full mt-1 ml-1 rounded-lg" style="background-color: #243878"></span>
+        <div class="relative h-full p-5 bg-white border-2 rounded-lg" style="border-color: #243878">
+          <!-- Add Image Here -->
+          <img src="assets/img/illustrations/support.jpg" alt="Cost Effective" class="w-full h-40 object-cover rounded-md mb-4">
+          <h3 class="my-2 text-lg font-bold text-[#243878]">Cost-Effective Land Development Support</h3>
+          <p class="mt-3 mb-1 text-xs font-medium uppercase text-[#243878]">------------</p>
+          <p class="mb-2 text-[#243878]">We excel at supporting the land development process and reducing costs...</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Card 7 -->
+    <div class="w-full sm:w-1/2">
+      <div class="relative h-full ml-0 md:mr-10 hover:-translate-y-1 hover:shadow-lg border-[#243878]">
+        <span class="absolute top-0 left-0 w-full h-full mt-1 ml-1 rounded-lg" style="background-color: #243878"></span>
+        <div class="relative h-full p-5 bg-white border-2 rounded-lg" style="border-color: #243878">
+          <!-- Add Image Here -->
+          <img src="assets/img/illustrations/partner.jpg" alt="Partnership" class="w-full h-40 object-cover rounded-md mb-4">
+          <h3 class="my-2 text-lg font-bold text-[#243878]">Trusted Long-Term Partnership</h3>
+          <p class="mt-3 mb-1 text-xs font-medium uppercase text-[#243878]">------------</p>
+          <p class="mb-2 text-[#243878]">We want to be your partner of choice, expertise, authority and trust.</p>
         </div>
       </div>
     </div>
   </div>
 </div>
+
+</div>s
+</div>
+
+
+
 
   </div>
 
@@ -594,7 +467,7 @@
 <!-- source:https://tailwind.besoeasy.com -->
 
 
-<div class=" bg-wave-pattern">
+<div class=" bg-white">
 <div class="px-4 pt-16 mx-auto max-w-screen-xl md:px-24 lg:px-8 ">
   <div class="flex flex-col sm:flex-row justify-between items-start gap-y-10 mb-8 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 
@@ -621,7 +494,7 @@
         <p class="mr-1 text-gray-800">Email:</p>
         <a href="mailto:Sales@merine.com.sg" aria-label="Our email" title="Our email"
            class="transition-colors duration-300 text-indigo-600 hover:text-indigo-800">
-          Sales@merine.com.sg
+          Email Us Here
         </a>
       </div>
 
@@ -655,10 +528,10 @@
 
 <!-- Modal -->
 <div id="modal" class="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50 hidden">
-  <div class="bg-white rounded-lg shadow-lg p-6 max-w-lg w-full relative">
+  <div class="bg-white rounded-lg shadow-lg p-6 max-w-lg w-full relative" style="color: #243878">
     <button onclick="closeModal()" class="absolute top-2 right-2 text-gray-500 hover:text-gray-800 text-2xl">&times;</button>
-    <h2 id="modal-title" class="text-xl font-bold mb-4 text-gray-900"></h2>
-    <p id="modal-content" class="text-gray-700 whitespace-normal leading-relaxed max-h-[70vh] overflow-y-auto"></p>
+    <h2 id="modal-title" class="text-xl font-bold mb-4 text-gray-900" style="color: #243878"></h2>
+    <p id="modal-content" class="text-gray-700 whitespace-normal leading-relaxed max-h-[70vh] overflow-y-auto" style="color: #243878"></p>
   </div>
 </div>
 
@@ -732,13 +605,8 @@
       The team is also tasked with the responsibility of ensuring the equipment and materials arrive at the project sites safely and on time.`
     },
     card2: {
-      title: "Infrastructure / Civil Engineering",
-      content: `From sustainable drainage solutions and infrastructure to complex highway design, our technical knowledge and experience delivers where it matters – on site and in the ground. <br><br>
-      Our team of civil engineers has extensive experience in supporting schemes from pre-planning and feasibility assessments to detailed design, technical approvals and construction. Early pre-planning involvement allows us to identify constraints and opportunities with site drainage, highways and earthworks. <br><br>
-
-      Our collaborative approach to sustainable drainage systems (SuDS) provides vital design criteria to inform a master plan and allow coordination with other technical services through the planning process. <br><br>
-
-      We have a strong engineering capability to support our planning teams with experience across a range of sectors including residential, education and renewable energy.`
+      title: "Environmental Compliance & Consulting",
+      content: `Environmental staff are experts in working across the vast areas within the practice of Environmental Engineering. For each client whether in chemical or mechanical engineering , ecology, geology, hydraulics, or waste water engineering we have the know how to design, construct, and complete all aspects for solution driven processes in the environmental engineering discipline`
     },
     card3: {
       title: "Water and Environmental Management",
@@ -763,8 +631,7 @@
 
       From site appraisals, a broad range of assessment services, design development, landscape management plans and overseeing work on site, we put the scope into landscape.<br><br>
 
-      Consulting throughout the UK and across sectors, we consider the constraints and opportunities of a site and use these to inform its capacity for potential development. We work to achieve the best fit for the site and seek opportunities for landscape repair to better integrate new development within the landscape.
-      `
+        `
     }
   };
 
