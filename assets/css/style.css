@@ -1,0 +1,9 @@
+.bg-wave-pattern {
+  background-color: #ffffff;
+  background-image: url("data:image/svg+xml,%3Csvg width='1440' height='200' viewBox='0 0 1440 200' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath fill='%234f46e5' fill-opacity='0.1' d='M0 80C80 120 160 140 240 130C320 120 400 80 480 90C560 100 640 160 720 150C800 140 880 80 960 90C1040 100 1120 140 1200 130C1280 120 1360 80 1440 90V200H0V80Z'/%3E%3C/svg%3E");
+  background-repeat: repeat-x;
+  background-position: bottom;
+  background-size: cover;
+  position: relative;
+  overflow: hidden;
+}
