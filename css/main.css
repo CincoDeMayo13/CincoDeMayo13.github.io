@@ -396,6 +396,18 @@ th:last-child, td:last-child {
 }
 
 
+/* About Section Responsive Text Alignment
+ * ------------------------------------------------------------------- */
+.about-description {
+    text-align: justify;
+}
+
+@media only screen and (max-width: 768px) {
+    .about-description {
+        text-align: left;
+    }
+}
+
 /* ------------------------------------------------------------------- 
  * ## Spacing 
  * ------------------------------------------------------------------- */
