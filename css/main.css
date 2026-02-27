@@ -3113,23 +3113,15 @@ html.no-csstransitions .home-content__main {
 }
 
 .contact-secondary {
-    width: 35%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    min-height: 520px; 
 }
 
 .contact-secondary::before {
-    content: "";
-    display: block;
-    width: 35%;
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    right: 0;
-    background-color: #121212;
 }
 
-.contact-secondary .contact-info {
-    position: relative;
-}
 
 .contact-secondary .cinfo {
     margin-bottom: 4.8rem;
@@ -3308,6 +3300,24 @@ html.no-csstransitions .home-content__main {
     }
     .message-warning, .message-success {
         margin-bottom: 6rem;
+    }
+}
+
+/* restore sensible stacking and centering for small screens after making .contact-secondary a flex block */
+@media only screen and (max-width: 1000px) {
+    .contact-secondary {
+        display: block;
+        align-items: normal;
+        justify-content: normal;
+        min-height: auto;
+        padding-left: 20px; /* match mobile paddings */
+        padding-right: 20px;
+        text-align: center;
+    }
+    .contact-secondary .contact-info {
+        position: static;
+        margin: 0 auto;
+        display: inline-block;
     }
 }
 
