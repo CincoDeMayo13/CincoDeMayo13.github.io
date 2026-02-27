@@ -3116,7 +3116,7 @@ html.no-csstransitions .home-content__main {
     display: flex;
     align-items: flex-end;
     justify-content: flex-end;
-    min-height: 650px; 
+    min-height: 600px; 
 }
 
 .contact-secondary::before {
